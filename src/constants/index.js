@@ -133,8 +133,8 @@ const experiences = [
     date: "November 2023 - Present",
     points: [
       "Responsible for developing daily emails to the kids sector of Abercrombie & Fitch using HTML, CSS, & Javascript. Using Oracle Responys to organize all of our builds.",
-      "Creating daily push notifications for Iphone and Android usrs for Abercrombie & Fitch adults, Hollister, and Abercrombie & Fitch kids through the Braze platform.",
-      "We work collaboratively with our brand partners, design partners, and copy writers to ensure all campaigns are build accurately and on time.",
+      "Creating daily push notifications for iPhone and Android usrs for Abercrombie & Fitch adults, Hollister, and Abercrombie & Fitch kids through the Braze platform.",
+      "Recently underwent a huge software migration from Responys to Cordial, and lead the team on Kids IP warming and training for our new Cordial email build processes.",
     ],
   },
   {

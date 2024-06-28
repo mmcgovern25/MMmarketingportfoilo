@@ -19,7 +19,7 @@ module.exports = {
         "white-100": "#f3f3f3",
       },
       boxShadow: {
-        card: "0px 35px 120px -15px #211e35",
+        card: "0px 35px 120px -15px #211e35", 'navy-hover': '0 0 10px 3px rgba(0, 0, 128, 0.5)',
       },
       screens: {
         xs: "450px",
