@@ -1,6 +1,7 @@
 import {
 
   javascript,
+  connectclean,
   lewagon,
   html,
   css,
@@ -195,7 +196,7 @@ const projects = [
       "A complete initial sales page aimed to persuade the user to sign up for the service. Once the user has signed up, they will gain access to all tracking data of the top cryptocurrencies around the world. A fantastic service for those who are interested in investing, or curious in learning the history behind each coin.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
@@ -203,15 +204,16 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
-        color: "pink-text-gradient",
+        name: "Tailwind",
+        color: "blue-text-gradient",
       },
       {
         name: "ChartJS",
-        color: "pink-text-gradient",
+        color: "green-text-gradient",
       },
     ],
     image: crypto,
+    live_link: "https://cryptotrackersworld.com",
     source_code_link: "https://github.com/mmcgovern25/crpyto-app",
   },
 
@@ -221,40 +223,42 @@ const projects = [
       "A mock version of a Nike shoe ecommerce site, with a strickly beautiful design. My personal favorite touch was the hover animation over the sneakers, that is aimed to mimick a running step, perfect for the athletic theme of the site. The site also includes a full add to cart functionality with react useState.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "tailwind",
-        color: "green-text-gradient",
+        name: "Tailwind",
+        color: "blue-text-gradient",
       },
       {
-        name: "nodeJS",
-        color: "pink-text-gradient",
+        name: "NodeJS",
+        color: "green-text-gradient",
       },
     ],
     image: nike,
+    live_link: "https://nikestoresale.netlify.app",
     source_code_link: "https://github.com/mmcgovern25/Nike-Ecommerce/tree/main/Nike-Store",
   },
   {
     name: "Connect & Clean",
     description:
-      "Connect & Clean was our final group project that myself and my batchmates created at the Le Wagon Full Stack Web Development Bootcamp. The intention of the site is to fill a void for Airbnb owners, and cleaners alike. That was to give them a platform where they can easily arrange cleaning job opportunities.",
+      "Connect & Clean was our final group project that myself and my batchmates created at the Le Wagon Full Stack Web Development Bootcamp. While the site is still ongoing contruction on the visual side of things, the amount of backend knowledge I gained from this project was invaluable. The intention of the site is to fill a void for Airbnb owners, and cleaners alike. That was to give them a platform where they can easily arrange cleaning job opportunities.",
     tags: [
       {
         name: "Ruby",
-        color: "blue-text-gradient",
+        color: "pink-text-gradient",
       },
       {
         name: "Ruby On Rails",
-        color: "green-text-gradient",
+        color: "pink-text-gradient",
       },
       {
-        name: "scss",
+        name: "SCSS",
         color: "pink-text-gradient",
       },
     ],
-    image: sims,
+    image: connectclean,
+    live_link: "https://connectclean.net",
     source_code_link: "https://github.com/PSorianoR/Connect-and-Clean",
   },
   {
@@ -268,11 +272,11 @@ const projects = [
       },
       {
         name: "Tailwind",
-        color: "green-text-gradient",
+        color: "blue-text-gradient",
       },
     ],
     image: sims,
-    live_link: "https://alecsimscpa2.netlify.app/",
+    live_link: "https://alecsimscpa.com/",
     source_code_link: "https://github.com/mmcgovern25/AlecSimsCPA",
   },
   {
@@ -286,22 +290,19 @@ const projects = [
       },
       {
         name: "Tailwind",
-        color: "green-text-gradient",
+        color: "blue-text-gradient",
       },
       {
         name: "ThreeJS",
-        color: "pink-text-gradient",
+        color: "green-text-gradient",
       },
       {
         name: "GSAP",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "GSAP",
-        color: "pink-text-gradient",
+        color: "green-text-gradient",
       },
     ],
     image: iphone,
+    live_link: "https://appleiphonesale.netlify.app",
     source_code_link: "https://github.com/mmcgovern25/iPhoneGSAP3JS",
   },
   {
@@ -311,7 +312,7 @@ const projects = [
     tags: [
       {
         name: "Vanilla JS",
-        color: "blue-text-gradient",
+        color: "yellow-text-gradient",
       },
       {
         name: "CSS",
@@ -323,6 +324,7 @@ const projects = [
       },
     ],
     image: pokemon1,
+    live_link: "https://pokemonpowerrankings.com",
     source_code_link: "https://github.com/mmcgovern25/PKMN-Power-Rankings",
   },
 ];

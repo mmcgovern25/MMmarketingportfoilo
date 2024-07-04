@@ -12,7 +12,7 @@ import BAr from "./BAr.jpg";
 
 import gavea from "./gavea.jpg";
 import wedding from "./wedding.jpg";
-
+import connectclean from "./connectclean.png";
 import css from "./tech/css.png";
 
 import figma from "./tech/figma.png";
@@ -50,6 +50,7 @@ import lewagon from "../assets/company/lewaginn.png"
 
 export {
   framermotion,
+  connectclean,
   gsap,
   logo,
   github,
