@@ -73,9 +73,9 @@ const Hero = () => {
         </div>
       </div>
       <div className="hero-img-container">
-  <Tilt className='max-w-xs'>
+  <div className='max-w-xs'>
     <img src={heroimg} alt="Matt McGovern Photo" className="green-pink-gradient p-[2px] rounded-full shadow-card w-auto h-auto" />
-  </Tilt>
+  </div>
 </div>
 
 
