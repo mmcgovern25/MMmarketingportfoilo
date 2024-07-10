@@ -48,7 +48,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        Who am I? Well, from a professional stand point, I am a skilled web developer with already two roles under my belt of prior experience, along with a full stack intensive Web Development bootcamp to go along with it. Outside of studying & working, I'm also a real person with other interests like anyone else. Below you can get to know more of the personal side of me as well.
+        Who am I? Well, from a professional stand point, I am a skilled web developer with already two roles under my belt of prior experience, along with a full stack intensive Web Development bootcamp to go along with it. Outside of studying & working, I'm also a real person with other interests like anyone else. THIS IS THE TEST
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
