@@ -240,3 +240,20 @@
   box-sizing: border-box;
   border-radius: 0.65rem;/* Ensure the padding and border are included in the element's total width and height */
 }
+
+.hero-img-container {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 30px;
+  z-index: 20;
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .hero-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

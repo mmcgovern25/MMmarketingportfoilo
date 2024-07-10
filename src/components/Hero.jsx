@@ -72,10 +72,12 @@ const Hero = () => {
 
         </div>
       </div>
+      <div className="hero-img-container">
+  <Tilt className='max-w-xs'>
+    <img src={heroimg} alt="Matt McGovern Photo" className="green-pink-gradient p-[2px] rounded-full shadow-card w-auto h-auto" />
+  </Tilt>
+</div>
 
-      <Tilt className='hidden lg:flex absolute inset-0 top-[300px] lg:top-[50px] left-[50vw] transform -translate-x-1/2 justify-center items-center z-20'>
-        <img src={heroimg} alt="Matt McGovern Photo" className="green-pink-gradient p-[2px] rounded-full shadow-card w-auto h-auto max-w-xs" />
-      </Tilt>
 
       <div className='absolute xs:bottom-5 bottom-10 w-full flex justify-center items-center z-30'>
         <a href='#about'>
