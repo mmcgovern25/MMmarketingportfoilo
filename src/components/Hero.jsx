@@ -73,7 +73,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <Tilt className='hidden lg:flex absolute inset-0 top-[300px] lg:top-[50px] left-[250px] sm:left-[100px] md:left-[150px] lg:left-[800px] xl:left-[300px] justify-center items-center z-20'>
+      <Tilt className='hidden lg:flex absolute inset-0 top-[300px] lg:top-[50px] left-[50vw] transform -translate-x-1/2 justify-center items-center z-20'>
         <img src={heroimg} alt="Matt McGovern Photo" className="green-pink-gradient p-[2px] rounded-full shadow-card w-auto h-auto max-w-xs" />
       </Tilt>
 
