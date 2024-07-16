@@ -72,11 +72,12 @@ const Hero = () => {
 
         </div>
       </div>
+
       <div className="hero-img-container">
-  <div className='max-w-xs'>
-    <img src={heroimg} alt="Matt McGovern Photo" className="green-pink-gradient p-[2px] rounded-full shadow-card w-auto h-auto" />
-  </div>
-</div>
+         <Tilt className='max-w-xs'>
+          <img src={heroimg} alt="Matt McGovern Photo" className="green-pink-gradient p-[2px] rounded-full shadow-card w-auto h-auto" />
+        </Tilt>
+      </div>
 
 
       <div className='absolute xs:bottom-5 bottom-10 w-full flex justify-center items-center z-30'>

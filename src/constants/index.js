@@ -242,7 +242,7 @@ const projects = [
   {
     name: "Connect & Clean",
     description:
-      "Connect & Clean was our final group project that myself and my batchmates created at the Le Wagon Full Stack Web Development Bootcamp. While the site is still ongoing contruction on the visual side of things, the amount of backend knowledge I gained from this project was invaluable. The intention of the site is to fill a void for Airbnb owners, and cleaners alike. That was to give them a platform where they can easily arrange cleaning job opportunities.",
+      "Connect & Clean was our final group project that myself and my batchmates created at the Le Wagon Full Stack Web Development Bootcamp. While the site is still ongoing contruction on the visual side of things, the amount of backend knowledge I gained from this project was invaluable. The intention of the site is to fill a void for Airbnb owners, and cleaners alike. That was to give them a platform where they can easily arrange cleaning job opportunities. *currently desktop only*",
     tags: [
       {
         name: "Ruby",
@@ -282,7 +282,7 @@ const projects = [
   {
     name: "iStore Clone",
     description:
-      "A beautifully designed landing page for the newest iPhone 15 Pro, made to mimik the real deal on the apple website. This landing page utilizies a variety of design tactics to give it a modern and slick design, including a bento box video collage, 3D models using ThreeJS, and scroll animations using GSAP.",
+      "A beautifully designed landing page for the newest iPhone 15 Pro, made to mimik the real deal on the apple website. This landing page utilizies a variety of design tactics to give it a modern and slick design, including a bento box video collage, 3D models using ThreeJS, and scroll animations using GSAP. *currently desktop only*",
     tags: [
       {
         name: "React",
