@@ -4,6 +4,7 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 import bluetech from "./bluetech2.jpg";
 import mm from "./mm5.png";
+import habitat from "./company/habitat.png";
 
 import heroimg from "./heroimg.jpg";
 
@@ -27,9 +28,25 @@ import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import threejs from "./tech/threejs.svg";
+import photoshop from "./tech/photoshop.png";
+import ae from "./tech/ae.png";
+import chat from "./tech/chat.png";
+import mailchimp from "./tech/mailchimp.png";
+import sitecore from "./tech/sitecore.png";
+import salesforce from "./tech/salesforce.png";
+import ga4 from "./tech/ga4.png";
+import sem from "./tech/sem.png";
+import hubspot from "./tech/hubspot.png";
+import meta from "./tech/meta.png";
+import ga from "./tech/ga.png";
+import illustrator from "./tech/illustrator.png";
+import canva from "./tech/canva.png";
+import responsys from "./tech/responsys.png";
+import seo from "./tech/seo.png";
 
 
-import gsap from "./tech/gsapp.png";
+
+
 
 import sims from "./sims.png";
 import pokemon1 from "./pokemon1.png";
@@ -51,7 +68,6 @@ import lewagon from "../assets/company/lewaginn.png"
 export {
   framermotion,
   connectclean,
-  gsap,
   logo,
   github,
   menu,
@@ -86,4 +102,20 @@ export {
   nike,
   play,
   heroimg,
+  habitat,
+  photoshop,
+  ae,
+  chat,
+  mailchimp,
+  sitecore,
+  salesforce,
+  ga4,
+  sem,
+  hubspot,
+  meta,
+  ga,
+  illustrator,
+  canva,
+  responsys,
+  seo
 };

@@ -39,16 +39,17 @@ const Hero = () => {
               className={`bg-clip-text text-transparent bg-gradient-to-r from-blue-700 to-blue-300 ${styles.heroHeadTextGradient}`}
               sequence={[
                 'Digital Marketer.',
-                1500,
+                1000,
                 'Content Strategist.',
-                1500,
+                1000,
                 'Design Enthusiast.',
-                1500,
+                1000,
                 'Email Marketer.',
-                1500
+                1000
               ]}
               wrapper="span"
-              speed={50}
+              speed={200
+              }
               style={{ fontSize: '1em', display: 'inline-block' }}
               repeat={Infinity}
             />

@@ -15,10 +15,6 @@ import {
  beth,
  ANF,
  draft,
-  threejs,
-  ruby,
-  rails,
-  gsap,
 wedding,
 gavea,
   BAr,
@@ -28,8 +24,22 @@ gavea,
   pokemon1,
   sims,
   iphone,
-  framermotion
-
+  habitat,
+  photoshop,
+  ae,
+  chat,
+  mailchimp,
+  sitecore,
+  salesforce,
+  ga4,
+  sem,
+  hubspot,
+  meta,
+  illustrator,
+  canva,
+  responsys,
+  seo,
+  ga
 } from "../assets";
 
 export const navLinks = [
@@ -49,11 +59,11 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Marketing Professional",
     icon: LIr,
   },
   {
-    title: "Travel Enthusiast",
+    title: "Traveling Enthusiast",
     icon: gavea,
   },
   {
@@ -76,32 +86,65 @@ const technologies = [
     icon: css,
   },
   {
+    name: "GA4",
+    icon: ga4,
+  },
+  {
     name: "JavaScript",
     icon: javascript,
+  },
+  {
+    name: "meta",
+    icon: meta,
   },
   {
     name: "React JS",
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "hubspot",
+    icon: hubspot,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "Salesforce",
+    icon: salesforce,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "illustrator",
+    icon: illustrator,
   },
   {
-    name: "Ruby",
-    icon: ruby,
+    name: "Google Analytics",
+    icon: ga,
+  },
+  
+  {
+    name: "sitecore",
+    icon: sitecore,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "sem",
+    icon: sem,
+  },
+  {
+    name: "canva",
+    icon: canva,
+  },
+  {
+    name: "responsys",
+    icon: responsys,
+  },
+  {
+    name: "seo",
+    icon: seo,
+  },
+  {
+    name: "ae",
+    icon:ae,
+  },
+  {
+    name: "photoshop",
+    icon: photoshop,
   },
   {
     name: "git",
@@ -112,72 +155,76 @@ const technologies = [
     icon: figma,
   },
   {
-    name: "rails",
-    icon: rails,
+    name: "chat",
+    icon: chat,
   },
   {
-    name: "gsap",
-    icon: gsap,
+    name: "mailchimp",
+    icon: mailchimp,
   },
-  {
-    name: "framer motion",
-    icon: framermotion,
-  },
+
 ];
 
 const experiences = [
   {
-    title: "Email Developer",
+    title: "Email Developer/Marketer",
     company_name: "Abercrombie & Fitch",
+    time_location: "Full Time - Remote (Columbus, OH)",
     icon: ANF,
     iconBg: "#E6DEDD",
-    date: "November 2023 - Present",
+    date: "Nov 2023 - Present",
     points: [
-      "Responsible for developing daily emails to the kids sector of Abercrombie & Fitch using HTML, CSS, & Javascript. Using Oracle Responys to organize all of our builds.",
-      "Creating daily push notifications for iPhone and Android usrs for Abercrombie & Fitch adults, Hollister, and Abercrombie & Fitch kids through the Braze platform.",
-      "Recently underwent a huge software migration from Responys to Cordial, and lead the team on Kids IP warming and training for our new Cordial email build processes.",
-    ],
-  },
-  {
-    title: "Full Stack Web Development Bootcamp Graduate",
-    company_name: "Le Wagon",
-    icon: lewagon,
-    iconBg: "#E6DEDD",
-    date: "July 2023 - Sept 2023",
-    points: [
-      "400-hour full immersion intensive programming bootcamp, programming languages covered include: HTML, CSS, JavaScript, Ruby, Ruby On Rails, and SQL.",
-      "Final project my team created app entirely from scratch that connects Airbnb owners with cleaners that serves as a centralized location for work opportunities.",
-      "Other skills learned included utilizing figma for creating a design, operating the terminal, and VS code.",
+      "Lead email developer for the kids’ sector of Abercrombie & Fitch. Creating daily emails for audiences in the US, Canada,the EU, and the UK using HTML, CSS, & JavaScript.",
+      "Creating daily SMS push notifications for iPhone and Android users across all brands include A&F adults, A&F kids, and Hollister. Was previously done on Braze software, but since have converted to Cordial.",
+      "Successfully led our kids’ team through a software migration from Oracle Responsys to Cordial that required IP warming, sending emails using both softwares for a duration of time, and gradually increasing our send to full time using Cordial. This required learning an entire new software switching from RPL (Responsys Programming Language) to Cordial’s integrated template software.",
+      "Responsible for monitoring campaign performance using heat maps and metrics such as open rates, click-through rates, and conversions in order to identify trends and areas for improvement and deliver reportings back to our analytics team.",
+      "Responsible for updating excel tracking sheets on a weekly basis, and also utilizing Adobe Photoshop for editing different image or GIF assets."
     ],
   },
   {
     title: "CMS Content Manager",
     company_name: "Beth Israel Lahey Health",
+    time_location: "Full Time (Contract) - Remote (Boston, MA)",
     icon: beth,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - July 2023",
+    date: "March 2023 - July 2023",
     points: [
       "Over 150 requested updates made to all Beth Israel Lahey webpages, assisting in one of the biggest hospital mergers in the country.",
-      "Utilized such skills such as Adobe Photoshop, HTML, CSS, and Javascript to complete those requested updates.",
-      "Our team organized all of our webpages using SiteCore 10, and all internal communication was done through Microsoft Teams.",
-      "Managed website content for over 13 hospitals and health care facilities all together",
+      "Our team organized all of our webpages using the CMS SiteCore 10.",
+      "Managed website content for over 13 hospitals and health care facilities all together, using basic HTML and Photoshop",
     ],
   },
   {
     title: "Digital Marketing Associate",
     company_name: "Animal Equality",
+    time_location: "Full Time (Contract) - Remote (Austin, TX)",
     icon: AE,
     iconBg: "#E6DEDD",
-    date: "Sept 2022 - January 2023",
+    date: "Oct 2022 - Jan 2023",
     points: [
-      "Assisted the US team's marketing efforts including: Facebook Ad campaigns, Google Ad campaigns, and Email Marketing.",
+      "Assisted the US team's marketing efforts including: Facebook Ad campaigns, Google Ad campaigns, and Email Marketing, successful Facebook ad campaign that led to over 146,000 US citizens signing our petition.  ",
       "Most successful Facebook ad campaign led to over 146,000 US citizens signing our petition",
       "Set up email newsletters through EveryAction and experimented with different ways to help increase our open rates.",
+      "Responsible for improving SEO through keyword research using SEMrush, and in helping brainstorm article posts for our copywriters. "
+    ],
+  },
+  {
+    title: "Digital Marketing Coordinator",
+    company_name: "Habitat For Humanity ReStore",
+    time_location: "Part Time - Remote (Boston, MA)",
+    icon: habitat,
+    iconBg: "#E6DEDD",
+    date: "Oct 2022 - Jan 2023",
+    points: [
+      "Responsible for managing content creation calendar for all social media accounts which included: Instagram, Facebook, and Twitter.",
+      "Presented a PowerPoint presentation to the ReStore why it was crucial that we invested in a digital ad strategy, how we could monitor it, and how we could benefit drastically.",
+      "Ran their first marketing funnel for them which included several rounds of Facebook marketing campaigns, retargeting practices, creating a landing page, all in an attempt to ultimately bring new customers through the doors. ",
     ],
   },
   {
     title: "Customer Experience Associate",
     company_name: "DraftKings",
+    time_location: "Full Time - Remote (Boston, MA)",
     icon: draft,
     iconBg: "#E6DEDD",
     date: "June 2021 - Oct 2022",
