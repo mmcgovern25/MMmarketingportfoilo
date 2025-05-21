@@ -38,13 +38,13 @@ const Hero = () => {
             <TypeAnimation
               className={`bg-clip-text text-transparent bg-gradient-to-r from-blue-700 to-blue-300 ${styles.heroHeadTextGradient}`}
               sequence={[
-                'Web Developer.',
+                'Digital Marketer.',
                 1000,
-                'UI/UX Designer.',
+                'Content Strategist.',
                 1000,
-                'Mobile Developer.',
+                'Design Enthusiast.',
                 1000,
-                'Tech Enthusiast.',
+                'Email Marketer',
                 1000
               ]}
               wrapper="span"
