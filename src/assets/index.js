@@ -13,21 +13,13 @@ import BAr from "./BAr.jpg";
 
 import gavea from "./gavea.jpg";
 import wedding from "./wedding.jpg";
-import connectclean from "./connectclean.png";
 import css from "./tech/css.png";
 
 import figma from "./tech/figma.png";
-import framermotion from "./tech/framermotion.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
-import nodejs from "./tech/nodejs.png";
-import ruby from "./tech/rubyy.png";
-import rails from "./tech/railss.png";
 import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
-import tailwind from "./tech/tailwind.png";
-import threejs from "./tech/threejs.svg";
 import photoshop from "./tech/photoshop.png";
 import ae from "./tech/ae.png";
 import chat from "./tech/chat.png";
@@ -43,13 +35,10 @@ import illustrator from "./tech/illustrator.png";
 import canva from "./tech/canva.png";
 import responsys from "./tech/responsys.png";
 import seo from "./tech/seo.png";
-
-
-
-
-
-import sims from "./sims.png";
-import pokemon1 from "./pokemon1.png";
+import AEsnip from "./certs/AEsnip.png";
+import GAcert from "./certs/GAcert.png";
+import lewagoncert from "./certs/lewagoncert.jpeg";
+import photoshopsnip from "./certs/photoshopsnip.png";
 
 import crypto from "./crypto.png";
 import iphone from "./iphone.png"
@@ -66,8 +55,6 @@ import lewagon from "../assets/company/lewaginn.png"
 
 
 export {
-  framermotion,
-  connectclean,
   logo,
   github,
   menu,
@@ -77,17 +64,11 @@ export {
   git,
   html,
   javascript,
-  nodejs,
   reactjs,
-  redux,
-  tailwind,
-  threejs,
   draft,
   AE,
   ANF,
   beth,
-  ruby,
-  rails,
   lewagon,
   bluetech,
   mm,
@@ -95,9 +76,7 @@ export {
   LIr,
   gavea,
   wedding,
-  sims,
   iphone,
-  pokemon1,
   crypto,
   nike,
   play,
@@ -117,5 +96,9 @@ export {
   illustrator,
   canva,
   responsys,
-  seo
+  seo,
+  lewagoncert,
+  AEsnip,
+  GAcert,
+  photoshopsnip
 };

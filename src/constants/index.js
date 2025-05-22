@@ -1,14 +1,9 @@
 import {
 
   javascript,
-  connectclean,
-  lewagon,
   html,
   css,
   reactjs,
-  redux,
-  tailwind,
-  nodejs,
   git,
   figma,
  AE,
@@ -21,8 +16,6 @@ gavea,
   LIr,
   nike,
   crypto,
-  pokemon1,
-  sims,
   iphone,
   habitat,
   photoshop,
@@ -39,7 +32,11 @@ gavea,
   canva,
   responsys,
   seo,
-  ga
+  ga,
+  AEsnip,
+  GAcert,
+  lewagoncert,
+  photoshopsnip
 } from "../assets";
 
 export const navLinks = [
@@ -238,6 +235,91 @@ const experiences = [
 
 const projects = [
   {
+    name: "Adobe Photoshop Masterclass (Learning Next)",
+    description:
+      "This course looks to focus on advanced photo editing, retouching, and graphic design techniques. Different sections covering layer manipulation, masking, typography, and color correction to create professional-quality visual content.",
+    tags: [
+      {
+        name: "Vanilla JS",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "HTML",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: photoshopsnip,
+    live_link: "https://pokemonpowerrankings.com",
+    source_code_link: "https://github.com/mmcgovern25/PKMN-Power-Rankings",
+  }, 
+  {
+    name: "Adobe After Effects Bootcamp (In Progress)",
+    description:
+      "Full beginner to advanced course on Adobe After Effects, with over 23 hours of on-demand video content. I am learning how to create motion graphics, animations, and visual effects with a wide variety of different projects.",
+    tags: [
+      {
+        name: "Vanilla JS",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "HTML",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: AEsnip,
+    live_link: "https://pokemonpowerrankings.com",
+    source_code_link: "https://github.com/mmcgovern25/PKMN-Power-Rankings",
+  }, 
+  {
+    name: "Le Wagon Full Stack Web Development Bootcamp",
+    description:
+      "Successfully completed a full 10-week in-person bootcamp in Rio De Janiero, Brazil. We learned from scratch how to code and by the end of the course we completed a full-stack app that connected airbnb owners with different local cleaning teams.",
+    tags: [
+      {
+        name: "Ruby",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Ruby On Rails",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "SCSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: lewagoncert,
+    live_link: "https://connectclean.net",
+    source_code_link: "https://github.com/PSorianoR/Connect-and-Clean",
+  },
+  {
+    name: "Google Analytics (GA4) Certifcation",
+    description:
+      "Completion of the Google Analytics Certification, once in 2023, and renewed again in 2025. This cert helped me gain a deep understanding of how to collect, analyze, and interpret user data to improve website performance and marketing effectiveness.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: GAcert,
+    live_link: "https://alecsimscpa.com/",
+    source_code_link: "https://github.com/mmcgovern25/AlecSimsCPA",
+  },
+ 
+  {
     name: "Crypto Trackers",
     description:
       "A complete initial sales page aimed to persuade the user to sign up for the service. Once the user has signed up, they will gain access to all tracking data of the top cryptocurrencies around the world. A fantastic service for those who are interested in investing, or curious in learning the history behind each coin.",
@@ -286,46 +368,8 @@ const projects = [
     live_link: "https://nikestoresale.netlify.app",
     source_code_link: "https://github.com/mmcgovern25/Nike-Ecommerce/tree/main/Nike-Store",
   },
-  {
-    name: "Connect & Clean",
-    description:
-      "Connect & Clean was our final group project that myself and my batchmates created at the Le Wagon Full Stack Web Development Bootcamp. While the site is still ongoing contruction on the visual side of things, the amount of backend knowledge I gained from this project was invaluable. The intention of the site is to fill a void for Airbnb owners, and cleaners alike. That was to give them a platform where they can easily arrange cleaning job opportunities. *currently desktop only*",
-    tags: [
-      {
-        name: "Ruby",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Ruby On Rails",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "SCSS",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: connectclean,
-    live_link: "https://connectclean.net",
-    source_code_link: "https://github.com/PSorianoR/Connect-and-Clean",
-  },
-  {
-    name: "Alec Simonovitch CPA",
-    description:
-      "A complete site for one of my best friends new side huste business he plans to start. With the main focus to simply collect emails and schedule consultation calls, to see how Alec could potentially help their finianical needs. My personal favorite part is the slick logo carousel that was used to showcase his experience.",
-    tags: [
-      {
-        name: "React",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Tailwind",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: sims,
-    live_link: "https://alecsimscpa.com/",
-    source_code_link: "https://github.com/mmcgovern25/AlecSimsCPA",
-  },
+ 
+  
   {
     name: "iStore Clone",
     description:
@@ -352,28 +396,7 @@ const projects = [
     live_link: "https://appleiphonesale.netlify.app",
     source_code_link: "https://github.com/mmcgovern25/iPhoneGSAP3JS",
   },
-  {
-    name: "Pokemon Power Rankings",
-    description:
-      "A complete detailed pokedex, with the functionality to rank your favorite pokemon to a variety of different lists. Your rankings are then updated with the respective spirit images. Let the debates begin!",
-    tags: [
-      {
-        name: "Vanilla JS",
-        color: "yellow-text-gradient",
-      },
-      {
-        name: "CSS",
-        color: "green-text-gradient",
-      },
-      {
-        name: "HTML",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: pokemon1,
-    live_link: "https://pokemonpowerrankings.com",
-    source_code_link: "https://github.com/mmcgovern25/PKMN-Power-Rankings",
-  },
+  
 ];
 
 export { services, technologies, experiences, projects };
