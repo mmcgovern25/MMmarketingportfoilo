@@ -36,7 +36,9 @@ gavea,
   AEsnip,
   GAcert,
   lewagoncert,
-  photoshopsnip
+  photoshopsnip,
+  SEOcert,
+  semscreen
 } from "../assets";
 
 export const navLinks = [
@@ -301,7 +303,7 @@ const projects = [
     source_code_link: "https://github.com/PSorianoR/Connect-and-Clean",
   },
   {
-    name: "Google Analytics (GA4) Certifcation",
+    name: "Google Analytics (GA4) Certification",
     description:
       "Completion of the Google Analytics Certification, once in 2023, and renewed again in 2025. This cert helped me gain a deep understanding of how to collect, analyze, and interpret user data to improve website performance and marketing effectiveness.",
     tags: [
@@ -317,8 +319,67 @@ const projects = [
     image: GAcert,
     live_link: "https://alecsimscpa.com/",
     source_code_link: "https://github.com/mmcgovern25/AlecSimsCPA",
+    
   },
- 
+  {
+    name: "HubSpot SEO Certification",
+    description:
+      "Completetion of the HubSpot SEO Certification, which covered essential strategies for improving website visibility, including on-page and technical SEO, content strategy, and link-building techniques. It emphasizes how to build a long-term SEO plan that drives organic traffic and aligns with business goals",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "ThreeJS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "ChartJS",
+        color: "green-text-gradient",
+      },
+    ],
+    image: SEOcert,
+    live_link: "https://cryptotrackersworld.com",
+    source_code_link: "https://github.com/mmcgovern25/crpyto-app",
+  },
+  {
+    name: "Semrush Advanced Content Marketing Certification",
+    description:
+      "In this certification I learned how to create valuable, targeted content that resonates with a real audience. Exploring effective promotion strategies—like storytelling in emails and using social media campaigns—to build relationships and increase content reach.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "ThreeJS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "ChartJS",
+        color: "green-text-gradient",
+      },
+    ],
+    image: semscreen,
+    live_link: "https://cryptotrackersworld.com",
+    source_code_link: "https://github.com/mmcgovern25/crpyto-app",
+  },
+];
+
+
+
+
+const projects2 = [
+
   {
     name: "Crypto Trackers",
     description:
@@ -396,7 +457,88 @@ const projects = [
     live_link: "https://appleiphonesale.netlify.app",
     source_code_link: "https://github.com/mmcgovern25/iPhoneGSAP3JS",
   },
-  
 ];
 
-export { services, technologies, experiences, projects };
+const projects3 = [
+
+  {
+    name: "Crypto Trackers",
+    description:
+      "A complete initial sales page aimed to persuade the user to sign up for the service. Once the user has signed up, they will gain access to all tracking data of the top cryptocurrencies around the world. A fantastic service for those who are interested in investing, or curious in learning the history behind each coin.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "ThreeJS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "ChartJS",
+        color: "green-text-gradient",
+      },
+    ],
+    image: crypto,
+    live_link: "https://cryptotrackersworld.com",
+    source_code_link: "https://github.com/mmcgovern25/crpyto-app",
+  },
+
+  {
+    name: "Nike Ecommerce Store",
+    description:
+      "A mock version of a Nike shoe ecommerce site, with a strickly beautiful design. My personal favorite touch was the hover animation over the sneakers, that is aimed to mimick a running step, perfect for the athletic theme of the site. The site also includes a full add to cart functionality with react useState.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "NodeJS",
+        color: "green-text-gradient",
+      },
+    ],
+    image: nike,
+    live_link: "https://nikestoresale.netlify.app",
+    source_code_link: "https://github.com/mmcgovern25/Nike-Ecommerce/tree/main/Nike-Store",
+  },
+ 
+  
+  {
+    name: "iStore Clone",
+    description:
+      "A beautifully designed landing page for the newest iPhone 15 Pro, made to mimik the real deal on the apple website. This landing page utilizies a variety of design tactics to give it a modern and slick design, including a bento box video collage, 3D models using ThreeJS, and scroll animations using GSAP. *currently desktop only*",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "ThreeJS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "GSAP",
+        color: "green-text-gradient",
+      },
+    ],
+    image: iphone,
+    live_link: "https://appleiphonesale.netlify.app",
+    source_code_link: "https://github.com/mmcgovern25/iPhoneGSAP3JS",
+  },
+];
+  
+
+export { services, technologies, experiences, projects, projects2, projects3 };

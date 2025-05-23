@@ -39,6 +39,8 @@ import AEsnip from "./certs/AEsnip.png";
 import GAcert from "./certs/GAcert.png";
 import lewagoncert from "./certs/lewagoncert.jpeg";
 import photoshopsnip from "./certs/photoshopsnip.png";
+import SEOcert from "./certs/SEOcert.jpeg";
+import semscreen from "./certs/semscreen.jpeg";
 
 import crypto from "./crypto.png";
 import iphone from "./iphone.png"
@@ -100,5 +102,7 @@ export {
   lewagoncert,
   AEsnip,
   GAcert,
-  photoshopsnip
+  photoshopsnip,
+  SEOcert,
+  semscreen
 };

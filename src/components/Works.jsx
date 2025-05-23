@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { styles } from '../styles';
 import { github, play } from '../assets/';
 import { SectionWrapper } from '../hoc';
-import { projects } from '../constants';
+import { projects, projects2, projects3 } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 
 const ProjectCard = ({ index, name, description, tags, image, source_code_link, live_link }) => {
@@ -84,6 +84,64 @@ const Works = () => {
 
       <div className='mt-2 flex flex-wrap gap-7'>
         {projects.map((project, index) => (
+          <ProjectCard
+            key={`project-${index}`}
+            index={index}
+            {...project}
+          />
+        ))}
+      </div>
+
+      <motion.div initial="hidden"
+          whileInView="show"
+          viewport={{ once: true, amount: 0.1 }} variants={textVariant()}>
+        <p className={`${styles.sectionSubText}`}>My work</p>
+        <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
+      </motion.div>
+
+      <div className='w-full flex'>
+        <motion.p
+          variants={fadeIn("", "", 0.1, 1)}
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: true, amount: 0.1 }}
+          className='mt-3 mb-10 text-secondary text-[17px] max-w-3xl leading-[30px]'
+        >
+          The six projects below I felt best showcased my abilities as a evergrowing developer. I made it a priority to work on projects that interested me on a personal level. So through these projects, I began to felt like an artist freely expressing myself as well. A few of these projects specifically, such as Connect & Clean, and Alec Simonvitch CPA were built with the attend of gaining real web traction as legitmate businesses in the near future.
+        </motion.p>
+      </div>
+
+      <div className='mt-2 flex flex-wrap gap-7'>
+        {projects2.map((project, index) => (
+          <ProjectCard
+            key={`project-${index}`}
+            index={index}
+            {...project}
+          />
+        ))}
+      </div>
+
+      <motion.div initial="hidden"
+          whileInView="show"
+          viewport={{ once: true, amount: 0.1 }} variants={textVariant()}>
+        <p className={`${styles.sectionSubText}`}>My work</p>
+        <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
+      </motion.div>
+
+      <div className='w-full flex'>
+        <motion.p
+          variants={fadeIn("", "", 0.1, 1)}
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: true, amount: 0.1 }}
+          className='mt-3 mb-10 text-secondary text-[17px] max-w-3xl leading-[30px]'
+        >
+          The six projects below I felt best showcased my abilities as a evergrowing developer. I made it a priority to work on projects that interested me on a personal level. So through these projects, I began to felt like an artist freely expressing myself as well. A few of these projects specifically, such as Connect & Clean, and Alec Simonvitch CPA were built with the attend of gaining real web traction as legitmate businesses in the near future.
+        </motion.p>
+      </div>
+
+      <div className='mt-2 flex flex-wrap gap-7'>
+        {projects3.map((project, index) => (
           <ProjectCard
             key={`project-${index}`}
             index={index}
