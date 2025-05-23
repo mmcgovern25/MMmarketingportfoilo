@@ -38,7 +38,11 @@ gavea,
   lewagoncert,
   photoshopsnip,
   SEOcert,
-  semscreen
+  semscreen,
+  anfemail1,
+  anfemail2,
+  anfemail3,
+  anfemail4
 } from "../assets";
 
 export const navLinks = [
@@ -462,7 +466,7 @@ const projects2 = [
 const projects3 = [
 
   {
-    name: "Crypto Trackers",
+    name: "Email1",
     description:
       "A complete initial sales page aimed to persuade the user to sign up for the service. Once the user has signed up, they will gain access to all tracking data of the top cryptocurrencies around the world. A fantastic service for those who are interested in investing, or curious in learning the history behind each coin.",
     tags: [
@@ -483,13 +487,13 @@ const projects3 = [
         color: "green-text-gradient",
       },
     ],
-    image: crypto,
+    image: anfemail1,
     live_link: "https://cryptotrackersworld.com",
     source_code_link: "https://github.com/mmcgovern25/crpyto-app",
   },
 
   {
-    name: "Nike Ecommerce Store",
+    name: "Email2",
     description:
       "A mock version of a Nike shoe ecommerce site, with a strickly beautiful design. My personal favorite touch was the hover animation over the sneakers, that is aimed to mimick a running step, perfect for the athletic theme of the site. The site also includes a full add to cart functionality with react useState.",
     tags: [
@@ -506,14 +510,14 @@ const projects3 = [
         color: "green-text-gradient",
       },
     ],
-    image: nike,
+    image: anfemail2,
     live_link: "https://nikestoresale.netlify.app",
     source_code_link: "https://github.com/mmcgovern25/Nike-Ecommerce/tree/main/Nike-Store",
   },
  
   
   {
-    name: "iStore Clone",
+    name: "Email3",
     description:
       "A beautifully designed landing page for the newest iPhone 15 Pro, made to mimik the real deal on the apple website. This landing page utilizies a variety of design tactics to give it a modern and slick design, including a bento box video collage, 3D models using ThreeJS, and scroll animations using GSAP. *currently desktop only*",
     tags: [
@@ -534,7 +538,33 @@ const projects3 = [
         color: "green-text-gradient",
       },
     ],
-    image: iphone,
+    image: anfemail3,
+    live_link: "https://appleiphonesale.netlify.app",
+    source_code_link: "https://github.com/mmcgovern25/iPhoneGSAP3JS",
+  },
+  {
+    name: "Email4",
+    description:
+      "A beautifully designed landing page for the newest iPhone 15 Pro, made to mimik the real deal on the apple website. This landing page utilizies a variety of design tactics to give it a modern and slick design, including a bento box video collage, 3D models using ThreeJS, and scroll animations using GSAP. *currently desktop only*",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "ThreeJS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "GSAP",
+        color: "green-text-gradient",
+      },
+    ],
+    image: anfemail4,
     live_link: "https://appleiphonesale.netlify.app",
     source_code_link: "https://github.com/mmcgovern25/iPhoneGSAP3JS",
   },

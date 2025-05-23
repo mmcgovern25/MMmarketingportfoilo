@@ -41,6 +41,10 @@ import lewagoncert from "./certs/lewagoncert.jpeg";
 import photoshopsnip from "./certs/photoshopsnip.png";
 import SEOcert from "./certs/SEOcert.jpeg";
 import semscreen from "./certs/semscreen.jpeg";
+import anfemail1 from "./certs/anfemail1.png";
+import anfemail2 from "./certs/anfemail2.png";
+import anfemail3 from "./certs/anfemail3.png";
+import anfemail4 from "./certs/anfemail4.png";
 
 import crypto from "./crypto.png";
 import iphone from "./iphone.png"
@@ -104,5 +108,9 @@ export {
   GAcert,
   photoshopsnip,
   SEOcert,
-  semscreen
+  semscreen,
+  anfemail1,
+  anfemail2,
+  anfemail3,
+  anfemail4
 };
