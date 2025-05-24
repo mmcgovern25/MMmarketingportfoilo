@@ -44,7 +44,6 @@ import semscreen from "./certs/semscreen.jpeg";
 import anfemail1 from "./certs/anfemail1.png";
 import anfemail2 from "./certs/anfemail2.png";
 import anfemail3 from "./certs/anfemail3.png";
-import anfemail4 from "./certs/anfemail4.png";
 
 import crypto from "./crypto.png";
 import iphone from "./iphone.png"
@@ -112,5 +111,4 @@ export {
   anfemail1,
   anfemail2,
   anfemail3,
-  anfemail4
 };

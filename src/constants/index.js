@@ -41,8 +41,7 @@ gavea,
   semscreen,
   anfemail1,
   anfemail2,
-  anfemail3,
-  anfemail4
+  anfemail3
 } from "../assets";
 
 export const navLinks = [
@@ -539,32 +538,6 @@ const projects3 = [
       },
     ],
     image: anfemail3,
-    live_link: "https://appleiphonesale.netlify.app",
-    source_code_link: "https://github.com/mmcgovern25/iPhoneGSAP3JS",
-  },
-  {
-    name: "Email4",
-    description:
-      "A beautifully designed landing page for the newest iPhone 15 Pro, made to mimik the real deal on the apple website. This landing page utilizies a variety of design tactics to give it a modern and slick design, including a bento box video collage, 3D models using ThreeJS, and scroll animations using GSAP. *currently desktop only*",
-    tags: [
-      {
-        name: "React",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Tailwind",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "ThreeJS",
-        color: "green-text-gradient",
-      },
-      {
-        name: "GSAP",
-        color: "green-text-gradient",
-      },
-    ],
-    image: anfemail4,
     live_link: "https://appleiphonesale.netlify.app",
     source_code_link: "https://github.com/mmcgovern25/iPhoneGSAP3JS",
   },

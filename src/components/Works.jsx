@@ -69,11 +69,10 @@ const ProjectCard2 = ({ index, name, description, tags, image, source_code_link,
       viewport={{ once: true, amount: 0.1 }}
       className='bg-tertiary rounded-2xl p-5 sm:w-[340px] w-full'
     >
-      <div className='relative w-full h-auto'>
+      <div className='relative w-full'>
         <img
           src={image}
           alt={name}
-          style={{ height: '100%' }}
           className='w-full h-full object-cover rounded-2xl'
         />
         <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
