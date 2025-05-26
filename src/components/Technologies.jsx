@@ -15,7 +15,7 @@ import { fadeIn } from "../utils/motion";
           Tools that I Use
         </p>
         <h2 className={`${styles.sectionHeadText} text-center`}>
-          Technologies
+          Marketing Tech Stack.
         </h2>
       </motion.div>
 

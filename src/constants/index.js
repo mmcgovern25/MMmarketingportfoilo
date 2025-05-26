@@ -176,11 +176,10 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Nov 2023 - Present",
     points: [
-      "Lead email developer for the kids’ sector of Abercrombie & Fitch. Creating daily emails for audiences in the US, Canada,the EU, and the UK using HTML, CSS, & JavaScript.",
-      "Creating daily SMS push notifications for iPhone and Android users across all brands include A&F adults, A&F kids, and Hollister. Was previously done on Braze software, but since have converted to Cordial.",
-      "Successfully led our kids’ team through a software migration from Oracle Responsys to Cordial that required IP warming, sending emails using both softwares for a duration of time, and gradually increasing our send to full time using Cordial. This required learning an entire new software switching from RPL (Responsys Programming Language) to Cordial’s integrated template software.",
-      "Responsible for monitoring campaign performance using heat maps and metrics such as open rates, click-through rates, and conversions in order to identify trends and areas for improvement and deliver reportings back to our analytics team.",
-      "Responsible for updating excel tracking sheets on a weekly basis, and also utilizing Adobe Photoshop for editing different image or GIF assets."
+      "Lead email developer for the kids’ sector of Abercrombie & Fitch. Creating daily emails for audiences in the US, CA, EU, and the UK using HTML, CSS, & JavaScript.",
+      "Creating daily SMS push notifications for iPhone and Android users across all brands include A&F adults, A&F kids, and Hollister. Was previously done on Braze, but since have converted to Cordial.",
+      "Successfully led our kids’ team through a software migration from Oracle Responsys to Cordial that required IP warming, sending emails using both softwares for a duration of time, and gradually increasing our send to full time using Cordial.",
+      "Responsible for monitoring campaign performance using heat maps and metrics such as open rates, click-through rates, and conversions in order to identify areas for improvement and deliver reportings back to our analytics team.",
     ],
   },
   {
@@ -207,7 +206,7 @@ const experiences = [
       "Assisted the US team's marketing efforts including: Facebook Ad campaigns, Google Ad campaigns, and Email Marketing, successful Facebook ad campaign that led to over 146,000 US citizens signing our petition.  ",
       "Most successful Facebook ad campaign led to over 146,000 US citizens signing our petition",
       "Set up email newsletters through EveryAction and experimented with different ways to help increase our open rates.",
-      "Responsible for improving SEO through keyword research using SEMrush, and in helping brainstorm article posts for our copywriters. "
+      "Responsible for improving SEO through keyword research using Semrush, and in helping brainstorm article posts for our copywriters. "
     ],
   },
   {
@@ -220,7 +219,7 @@ const experiences = [
     points: [
       "Responsible for managing content creation calendar for all social media accounts which included: Instagram, Facebook, and Twitter.",
       "Presented a PowerPoint presentation to the ReStore why it was crucial that we invested in a digital ad strategy, how we could monitor it, and how we could benefit drastically.",
-      "Ran their first marketing funnel for them which included several rounds of Facebook marketing campaigns, retargeting practices, creating a landing page, all in an attempt to ultimately bring new customers through the doors. ",
+      "Ran their first marketing funnel for them which included several rounds of Facebook marketing campaigns, retargeting practices, and creating custom landing pages.",
     ],
   },
   {
@@ -231,8 +230,8 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "June 2021 - Oct 2022",
     points: [
-      "Assisting customers through Twitter and Instagram direct messages.",
-      "Troubleshooting issues for over 50 customers per day on average through our customer help center, and live chat features.",
+      "Assisted customers through Twitter and Instagram direct messages.",
+      "Troubleshot issues for over 50 customers per day on average through our customer help center, and live chat features.",
       "Developed many soft skills in learning how to defuse esclating situations with an unhappy customer, and provide the best service possible.",
     ],
   },
@@ -259,7 +258,6 @@ const projects = [
     ],
     image: photoshopsnip,
     live_link: "https://pokemonpowerrankings.com",
-    source_code_link: "https://github.com/mmcgovern25/PKMN-Power-Rankings",
   }, 
   {
     name: "Adobe After Effects Bootcamp (In Progress)",
@@ -281,7 +279,6 @@ const projects = [
     ],
     image: AEsnip,
     live_link: "https://pokemonpowerrankings.com",
-    source_code_link: "https://github.com/mmcgovern25/PKMN-Power-Rankings",
   }, 
   {
     name: "Le Wagon Full Stack Web Development Bootcamp",
@@ -303,7 +300,6 @@ const projects = [
     ],
     image: lewagoncert,
     live_link: "https://connectclean.net",
-    source_code_link: "https://github.com/PSorianoR/Connect-and-Clean",
   },
   {
     name: "Google Analytics (GA4) Certification",
@@ -321,8 +317,6 @@ const projects = [
     ],
     image: GAcert,
     live_link: "https://alecsimscpa.com/",
-    source_code_link: "https://github.com/mmcgovern25/AlecSimsCPA",
-    
   },
   {
     name: "HubSpot SEO Certification",
@@ -348,7 +342,6 @@ const projects = [
     ],
     image: SEOcert,
     live_link: "https://cryptotrackersworld.com",
-    source_code_link: "https://github.com/mmcgovern25/crpyto-app",
   },
   {
     name: "Semrush Advanced Content Marketing Certification",
@@ -374,7 +367,6 @@ const projects = [
     ],
     image: semscreen,
     live_link: "https://cryptotrackersworld.com",
-    source_code_link: "https://github.com/mmcgovern25/crpyto-app",
   },
 ];
 
@@ -511,7 +503,6 @@ const projects3 = [
     ],
     image: anfemail2,
     live_link: "https://nikestoresale.netlify.app",
-    source_code_link: "https://github.com/mmcgovern25/Nike-Ecommerce/tree/main/Nike-Store",
   },
  
   
@@ -539,7 +530,6 @@ const projects3 = [
     ],
     image: anfemail3,
     live_link: "https://appleiphonesale.netlify.app",
-    source_code_link: "https://github.com/mmcgovern25/iPhoneGSAP3JS",
   },
 ];
   

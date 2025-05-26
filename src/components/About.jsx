@@ -47,13 +47,13 @@ const About = () => {
       <motion.div variants={fadeIn("", "", 0.1, 1)} className="mt-4 max-w-3xl leading-[30px] text-secondary text-[17px]">
   <p>
     Who am I? Well, from a professional stand point, I've somehow managed to become more a jack-of-all-trades. With experiences ranging from growth marketing, to email marketing, to SEO, to
-    motion graphics, to web development, and to everything in between. I pride myself in being coachable and being able to adapt on the fly and ever stop learning new skills along the way.
+    motion graphics, to web development, and to everything in between. I pride myself in always remaining coachable, being able to adapt on the fly, and never stop learning new skills along the way.
     Things are changing fast in the digital marketing space and I want to be right there at the forefront.
   </p>
 
   <p className="mt-4">
-    Outside of work, I really enjoy spending quality time with family & friends. They are like the backbone to my life! I'm also somebody who loves to explore the outdoors and travel to new cities
-    in search of new perspectives and self-peace. Although it may bring me enemies, being local to New England I can't help but root for my Celtics, Patriots, and Red Sox!
+    Outside of work, I really enjoy spending quality time with family & friends. They are like the backbone to my life! I also just became an uncle! On top of that who loves to explore the outdoors and travel to new cities
+    in search of new perspectives and self-peace. 
   </p>
 </motion.div>
 
