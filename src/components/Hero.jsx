@@ -4,7 +4,7 @@ import bluetech from "../assets/bluetech2.jpg";
 import { TypeAnimation } from 'react-type-animation';
 import { heroimg } from '../assets/';
 import { Tilt } from "react-tilt";
-import Matt_McGovern_Web_Dev_Resume_2024 from "../assets/Matt_McGovern_Web_Dev_Resume_2024.pdf"
+import Matt_McGovern_Marketing_Resume from "../assets/Matt_McGovern_Marketing_Resume.pdf"
 
 
 const Hero = () => {
@@ -63,7 +63,7 @@ const Hero = () => {
     Hire Me
   </button>
   <a
-    href={Matt_McGovern_Web_Dev_Resume_2024}
+    href={Matt_McGovern_Marketing_Resume}
     download
     className='flex items-center justify-center px-6 py-3 md:px-8 md:py-5 rounded-full bg-transparent hover:bg-slate-800 text-white border border-white'
   >
