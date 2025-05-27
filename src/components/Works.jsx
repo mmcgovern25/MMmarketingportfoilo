@@ -122,17 +122,6 @@ const ProjectCard3 = ({ index, name, description, tags, image }) => {
 
         </div>
       </div>
-      <div className='mt-5'>
-        <h3 className='text-white font-bold text-[24px]'>{name}</h3>
-        <p className='mt-2 text-secondary text-[14px]'>{description}</p>
-      </div>
-      <div className='mt-4 flex flex-wrap gap-2'>
-        {tags.map((tag) => (
-          <p key={tag.name} className={`text-[14px] ${tag.color}`}>
-            #{tag.name}
-          </p>
-        ))}
-      </div>
     </motion.div>
   );
 };
@@ -173,7 +162,7 @@ My goal is to become as well-rounded as possible; not only to build more versati
       <motion.div initial="hidden"
           whileInView="show"
           viewport={{ once: true, amount: 0.1 }} variants={textVariant()}>
-        <p className={`${styles.sectionSubText}`}>My work</p>
+        <p className={`mt-24 ${styles.sectionSubText}`}>My personal programming</p>
         <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
       </motion.div>
 
@@ -185,7 +174,7 @@ My goal is to become as well-rounded as possible; not only to build more versati
           viewport={{ once: true, amount: 0.1 }}
           className='mt-3 mb-10 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-          The six projects below I felt best showcased my abilities as a evergrowing developer. I made it a priority to work on projects that interested me on a personal level. So through these projects, I began to felt like an artist freely expressing myself as well. A few of these projects specifically, such as Connect & Clean, and Alec Simonvitch CPA were built with the attend of gaining real web traction as legitmate businesses in the near future.
+          The three projects below are a few of my favorite that I created in order further solidify my knowledge of a few different programming languages. While yes, they are unrelated to marketing, I still did want to highlight them as they served as an integral part of my growth as a working professional. Crypto Trackers utilizes an API to provide real time analysis of the performance of all the different coins. The mock Nike website was my favorite from a design standpoint replicating one of my favorite companies. While the recreation of the apple website was the most difficult!
         </motion.p>
       </div>
 
@@ -202,8 +191,8 @@ My goal is to become as well-rounded as possible; not only to build more versati
       <motion.div initial="hidden"
           whileInView="show"
           viewport={{ once: true, amount: 0.1 }} variants={textVariant()}>
-        <p className={`${styles.sectionSubText}`}>My work</p>
-        <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
+        <p className={`mt-24 ${styles.sectionSubText}`}>My current work at</p>
+        <h2 className={`${styles.sectionHeadText}`}>Abercrombie & Fitch.</h2>
       </motion.div>
 
       <div className='w-full flex'>
@@ -214,7 +203,7 @@ My goal is to become as well-rounded as possible; not only to build more versati
           viewport={{ once: true, amount: 0.1 }}
           className='mt-3 mb-10 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-          The six projects below I felt best showcased my abilities as a evergrowing developer. I made it a priority to work on projects that interested me on a personal level. So through these projects, I began to felt like an artist freely expressing myself as well. A few of these projects specifically, such as Connect & Clean, and Alec Simonvitch CPA were built with the attend of gaining real web traction as legitmate businesses in the near future.
+          Last but not least, here are some examples of the current work I am doing at A&F. Building emails and SMS notications across all brands, and delivering those performance analytics back to our team!
         </motion.p>
       </div>
 

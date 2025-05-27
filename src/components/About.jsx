@@ -46,14 +46,11 @@ const About = () => {
 
       <motion.div variants={fadeIn("", "", 0.1, 1)} className="mt-4 max-w-3xl leading-[30px] text-secondary text-[17px]">
   <p>
-    Who am I? Well, from a professional stand point, I've somehow managed to become more a jack-of-all-trades. With experiences ranging from growth marketing, to email marketing, to SEO, to
-    motion graphics, to web development, and to everything in between. I pride myself in always remaining coachable, being able to adapt on the fly, and never stop learning new skills along the way.
-    Things are changing fast in the digital marketing space and I want to be right there at the forefront.
+  Who am I? Professionally, I've built a broad foundation across digital marketing and tech—ranging from growth and email marketing, to SEO, motion graphics, and web development. Rather than being a “jack-of-all-trades,” I like to think of myself as someone who's naturally curious, adaptable, and always eager to learn what’s next. I take pride in staying coachable, embracing new tools and challenges, and keeping pace with the ever-evolving digital landscape.
   </p>
 
   <p className="mt-4">
-    Outside of work, I really enjoy spending quality time with family & friends. They are like the backbone to my life! I also just became an uncle! On top of that who loves to explore the outdoors and travel to new cities
-    in search of new perspectives and self-peace. 
+  Outside of work, I’m all about quality time with family and friends—they're truly the foundation of everything for me. (I just became an uncle, which has been a joy!) I also love being outdoors, exploring new places, and seeking out fresh perspectives whenever I can.
   </p>
 </motion.div>
 

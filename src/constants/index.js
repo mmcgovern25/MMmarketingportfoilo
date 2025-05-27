@@ -215,7 +215,7 @@ const experiences = [
     time_location: "Part Time - Remote (Boston, MA)",
     icon: habitat,
     iconBg: "#E6DEDD",
-    date: "Oct 2022 - Jan 2023",
+    date: "June 2021 - Jan 2023",
     points: [
       "Responsible for managing content creation calendar for all social media accounts which included: Instagram, Facebook, and Twitter.",
       "Presented a PowerPoint presentation to the ReStore why it was crucial that we invested in a digital ad strategy, how we could monitor it, and how we could benefit drastically.",
@@ -244,20 +244,12 @@ const projects = [
       "This course looks to focus on advanced photo editing, retouching, and graphic design techniques. Different sections covering layer manipulation, masking, typography, and color correction to create professional-quality visual content.",
     tags: [
       {
-        name: "Vanilla JS",
-        color: "yellow-text-gradient",
-      },
-      {
-        name: "CSS",
-        color: "green-text-gradient",
-      },
-      {
-        name: "HTML",
-        color: "pink-text-gradient",
-      },
+        name: "Photoshop",
+        color: "blue-text-gradient",
+      }
     ],
     image: photoshopsnip,
-    live_link: "https://pokemonpowerrankings.com",
+    live_link: "https://www.udemy.com/course/adobe-photoshop-course/?couponCode=24T7MT260525G3",
   }, 
   {
     name: "Adobe After Effects Bootcamp (In Progress)",
@@ -265,20 +257,12 @@ const projects = [
       "Full beginner to advanced course on Adobe After Effects, with over 23 hours of on-demand video content. I am learning how to create motion graphics, animations, and visual effects with a wide variety of different projects.",
     tags: [
       {
-        name: "Vanilla JS",
-        color: "yellow-text-gradient",
-      },
-      {
-        name: "CSS",
-        color: "green-text-gradient",
-      },
-      {
-        name: "HTML",
-        color: "pink-text-gradient",
-      },
+        name: "AfterEffects",
+        color: "text-purple-500",
+      }
     ],
     image: AEsnip,
-    live_link: "https://pokemonpowerrankings.com",
+    live_link: "https://www.udemy.com/course/after-effects-cc-bootcamp/?couponCode=24T7MT260525G3",
   }, 
   {
     name: "Le Wagon Full Stack Web Development Bootcamp",
@@ -290,16 +274,20 @@ const projects = [
         color: "pink-text-gradient",
       },
       {
-        name: "Ruby On Rails",
+        name: "RubyOnRails",
         color: "pink-text-gradient",
       },
       {
-        name: "SCSS",
-        color: "pink-text-gradient",
+        name: "JavaScript",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "SQL",
+        color: "yellow-text-gradient",
       },
     ],
     image: lewagoncert,
-    live_link: "https://connectclean.net",
+    live_link: "https://www.lewagon.com/web-development-course",
   },
   {
     name: "Google Analytics (GA4) Certification",
@@ -307,16 +295,12 @@ const projects = [
       "Completion of the Google Analytics Certification, once in 2023, and renewed again in 2025. This cert helped me gain a deep understanding of how to collect, analyze, and interpret user data to improve website performance and marketing effectiveness.",
     tags: [
       {
-        name: "React",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Tailwind",
-        color: "blue-text-gradient",
-      },
+        name: "GoogleAnalytics",
+        color: "yellow-text-gradient",
+      }
     ],
     image: GAcert,
-    live_link: "https://alecsimscpa.com/",
+    live_link: "https://skillshop.credential.net/4592407f-3107-49f9-aff0-10b0869797a1#acc.wKQXcl9x",
   },
   {
     name: "HubSpot SEO Certification",
@@ -324,24 +308,16 @@ const projects = [
       "Completetion of the HubSpot SEO Certification, which covered essential strategies for improving website visibility, including on-page and technical SEO, content strategy, and link-building techniques. It emphasizes how to build a long-term SEO plan that drives organic traffic and aligns with business goals",
     tags: [
       {
-        name: "React",
-        color: "blue-text-gradient",
+        name: "SEO",
+        color: "orange-text-gradient",
       },
       {
-        name: "ThreeJS",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Tailwind",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "ChartJS",
-        color: "green-text-gradient",
-      },
+        name: "KeywordResearch",
+        color: "orange-text-gradient",
+      }
     ],
     image: SEOcert,
-    live_link: "https://cryptotrackersworld.com",
+    live_link: "https://app-na2.hubspot.com/academy/242849101/mylearning/award/25",
   },
   {
     name: "Semrush Advanced Content Marketing Certification",
@@ -349,29 +325,18 @@ const projects = [
       "In this certification I learned how to create valuable, targeted content that resonates with a real audience. Exploring effective promotion strategies—like storytelling in emails and using social media campaigns—to build relationships and increase content reach.",
     tags: [
       {
-        name: "React",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "ThreeJS",
+        name: "ContentMarketing",
         color: "green-text-gradient",
       },
       {
-        name: "Tailwind",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "ChartJS",
+        name: "SocialMediaMarketing",
         color: "green-text-gradient",
-      },
+      }
     ],
     image: semscreen,
-    live_link: "https://cryptotrackersworld.com",
+    live_link: "https://static.semrush.com/academy/certificates/836f0cabb2/matthew-mcgovern_2.pdf",
   },
 ];
-
-
-
 
 const projects2 = [
 
@@ -386,7 +351,7 @@ const projects2 = [
       },
       {
         name: "ThreeJS",
-        color: "green-text-gradient",
+        color: "yellow-text-gradient",
       },
       {
         name: "Tailwind",
@@ -394,7 +359,7 @@ const projects2 = [
       },
       {
         name: "ChartJS",
-        color: "green-text-gradient",
+        color: "yellow-text-gradient",
       },
     ],
     image: crypto,
@@ -457,79 +422,14 @@ const projects2 = [
 const projects3 = [
 
   {
-    name: "Email1",
-    description:
-      "A complete initial sales page aimed to persuade the user to sign up for the service. Once the user has signed up, they will gain access to all tracking data of the top cryptocurrencies around the world. A fantastic service for those who are interested in investing, or curious in learning the history behind each coin.",
-    tags: [
-      {
-        name: "React",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "ThreeJS",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Tailwind",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "ChartJS",
-        color: "green-text-gradient",
-      },
-    ],
     image: anfemail1,
-    live_link: "https://cryptotrackersworld.com",
-    source_code_link: "https://github.com/mmcgovern25/crpyto-app",
   },
 
   {
-    name: "Email2",
-    description:
-      "A mock version of a Nike shoe ecommerce site, with a strickly beautiful design. My personal favorite touch was the hover animation over the sneakers, that is aimed to mimick a running step, perfect for the athletic theme of the site. The site also includes a full add to cart functionality with react useState.",
-    tags: [
-      {
-        name: "React",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Tailwind",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "NodeJS",
-        color: "green-text-gradient",
-      },
-    ],
     image: anfemail2,
-    live_link: "https://nikestoresale.netlify.app",
-  },
- 
-  
+  }, 
   {
-    name: "Email3",
-    description:
-      "A beautifully designed landing page for the newest iPhone 15 Pro, made to mimik the real deal on the apple website. This landing page utilizies a variety of design tactics to give it a modern and slick design, including a bento box video collage, 3D models using ThreeJS, and scroll animations using GSAP. *currently desktop only*",
-    tags: [
-      {
-        name: "React",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Tailwind",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "ThreeJS",
-        color: "green-text-gradient",
-      },
-      {
-        name: "GSAP",
-        color: "green-text-gradient",
-      },
-    ],
     image: anfemail3,
-    live_link: "https://appleiphonesale.netlify.app",
   },
 ];
   
