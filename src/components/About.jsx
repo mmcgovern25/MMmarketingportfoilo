@@ -59,6 +59,41 @@ const About = () => {
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
       </div>
+
+      <motion.div
+  variants={textVariant()}
+  initial="hidden"
+  whileInView="show"
+  viewport={{ once: true, amount: 0.25 }}
+  className="mt-20"
+>
+  <p className={styles.sectionSubText}>My Personal</p>
+  <h2 className={styles.sectionHeadText}>Resume Explainer Video</h2>
+</motion.div>
+
+
+<motion.div
+  variants={fadeIn('up', 'spring', 0.3, 0.75)}
+  initial="hidden"
+  whileInView="show"
+  viewport={{ once: true, amount: 0.1 }}
+  className="mt-10 flex justify-center px-4"
+>
+  <div className="w-full max-w-[720px] aspect-video">
+    <iframe
+      className="w-full h-full rounded-lg"
+      src="https://www.youtube.com/embed/iVNGOTlMEHw"
+      title="Resume Explainer Video"
+      frameBorder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowFullScreen
+    ></iframe>
+  </div>
+</motion.div>
+
+
+
+
     </>
   );
 };
