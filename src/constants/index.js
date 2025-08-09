@@ -192,7 +192,7 @@ const experiences = [
     points: [
       "Over 150 requested updates made to all Beth Israel Lahey webpages, assisting in one of the biggest hospital mergers in the country.",
       "Our team organized all of our webpages using the CMS SiteCore 10.",
-      "Managed website content for over 13 hospitals and health care facilities all together, using basic HTML and Photoshop",
+      "Managed website content for over 13 hospitals and health care facilities all together, using basic HTML and Photoshop.",
     ],
   },
   {
@@ -203,8 +203,8 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Oct 2022 - Jan 2023",
     points: [
-      "Assisted the US team's marketing efforts including: Facebook Ad campaigns, Google Ad campaigns, and Email Marketing, successful Facebook ad campaign that led to over 146,000 US citizens signing our petition.  ",
-      "Most successful Facebook ad campaign led to over 146,000 US citizens signing our petition",
+      "Assisted the US team's marketing efforts including: Facebook Ad campaigns, Google Ad campaigns, and Email Marketing. ",
+      "Most successful Facebook ad campaign led to over 146,000 US citizens signing our petition.",
       "Set up email newsletters through EveryAction and experimented with different ways to help increase our open rates.",
       "Responsible for improving SEO through keyword research using Semrush, and in helping brainstorm article posts for our copywriters. "
     ],
