@@ -169,7 +169,7 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Email Developer/Marketer",
+    title: " CRM & Lifecycle Marketing | Email Developer",
     company_name: "Abercrombie & Fitch",
     time_location: "Full Time - Remote (Columbus, OH)",
     icon: ANF,
@@ -178,7 +178,7 @@ const experiences = [
     points: [
       "Lead email developer for the kids’ sector of Abercrombie & Fitch. Creating daily emails for audiences in the US, CA, EU, and the UK using HTML, CSS, & JavaScript.",
       "Creating daily SMS push notifications for iPhone and Android users across all brands include A&F adults, A&F kids, and Hollister. Was previously done on Braze, but since have converted to Cordial.",
-      "Successfully led our kids’ team through a software migration from Oracle Responsys to Cordial that required IP warming, sending emails using both softwares for a duration of time, and gradually increasing our send to full time using Cordial.",
+      "Successfully created lifecycle marketing projects such as first-time buyer email automation campaign. As well as lifecycle campaigns around back to school and the holiday season.",
       "Responsible for monitoring campaign performance using heat maps and metrics such as open rates, click-through rates, and conversions in order to identify areas for improvement and deliver reportings back to our analytics team.",
     ],
   },
