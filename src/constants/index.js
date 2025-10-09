@@ -40,6 +40,7 @@ gavea,
   SEOcert,
   semscreen,
   anfemail1,
+  heroimg,
   anfemail2,
   anfemail3
 } from "../assets";
