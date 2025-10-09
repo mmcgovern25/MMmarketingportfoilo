@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import bluetech from "../assets/bluetech2.jpg";
 import { TypeAnimation } from 'react-type-animation';
-import { heroimg } from '../assets/';
+import { LIr } from '../assets/';
 import { Tilt } from "react-tilt";
 import Matt_McGovern_Marketing_Resume from "../assets/Matt_McGovern_Marketing_Resume_2025.33.pdf"
 
@@ -76,7 +76,7 @@ const Hero = () => {
 
       <div className="hero-img-container">
          <Tilt className='max-w-xs'>
-          <img src={heroimg} alt="Matt McGovern Photo" className="green-pink-gradient p-[2px] rounded-full shadow-card w-auto h-auto" />
+          <img src={LIr} alt="Matt McGovern Photo" className="green-pink-gradient p-[2px] rounded-full shadow-card w-auto h-auto" />
         </Tilt>
       </div>
 

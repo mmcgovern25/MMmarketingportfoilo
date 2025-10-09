@@ -40,7 +40,6 @@ gavea,
   SEOcert,
   semscreen,
   anfemail1,
-  heroimg,
   anfemail2,
   anfemail3
 } from "../assets";
@@ -63,7 +62,7 @@ export const navLinks = [
 const services = [
   {
     title: "Marketing Professional",
-    icon: heroimg,
+    icon: LIr,
   },
   {
     title: "Traveling Enthusiast",
