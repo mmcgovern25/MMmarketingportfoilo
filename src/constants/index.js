@@ -62,7 +62,7 @@ export const navLinks = [
 const services = [
   {
     title: "Marketing Professional",
-    icon: LIr,
+    icon: heroimg,
   },
   {
     title: "Traveling Enthusiast",
@@ -176,10 +176,10 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Nov 2023 - Present",
     points: [
-      "Lead email developer for the kids’ sector of Abercrombie & Fitch. Creating daily emails for audiences in the US, CA, EU, and the UK using HTML, CSS, & JavaScript.",
-      "Creating daily SMS push notifications for iPhone and Android users across all brands include A&F adults, A&F kids, and Hollister. Was previously done on Braze, but since have converted to Cordial.",
+      "Created daily push and in-app notifications across A&F Adults, A&F Kids, and Hollister in Braze, using segmentation, personalization, and A/B testing to increase engagement rates.",
+      "Lead email developer for the kids’ sector of Abercrombie & Fitch. Creating daily emails for audiences in the US, Canada, EU, and the UK using HTML, CSS, & JavaScript.",
       "Successfully created lifecycle marketing projects such as first-time buyer email automation campaign. As well as lifecycle campaigns around back to school and the holiday season.",
-      "Responsible for monitoring campaign performance using heat maps and metrics such as open rates, click-through rates, and conversions in order to identify areas for improvement and deliver reportings back to our analytics team.",
+      "Responsible for monitoring campaign performance using metrics such as open rates, click-through rates, and conversions to identify trends and areas for improvement and report back to our analytics team. ",
     ],
   },
   {
@@ -203,7 +203,7 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Oct 2022 - Jan 2023",
     points: [
-      "Assisted the US team's marketing efforts including: Facebook Ad campaigns, Google Ad campaigns, and Email Marketing. ",
+      "Built automated workflows, lead nurturing sequences, and scoring models in HubSpot to improve supporter engagement and retention.",
       "Most successful Facebook ad campaign led to over 146,000 US citizens signing our petition.",
       "Set up email newsletters through EveryAction and experimented with different ways to help increase our open rates.",
       "Responsible for improving SEO through keyword research using Semrush, and in helping brainstorm article posts for our copywriters. "
@@ -217,10 +217,11 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "June 2021 - Jan 2023",
     points: [
+      "Leveraged HubSpot dashboards and analytics to track campaign performance, delivering insights that informed marketing strategy.",
       "Responsible for managing content creation calendar for all social media accounts which included: Instagram, Facebook, and Twitter.",
       "Presented a PowerPoint presentation to the ReStore why it was crucial that we invested in a digital ad strategy, how we could monitor it, and how we could benefit drastically.",
       "Ran their first marketing funnel for them which included several rounds of Facebook marketing campaigns, retargeting practices, and creating custom landing pages.",
-    ],
+    ]
   },
   {
     title: "Customer Experience Associate",

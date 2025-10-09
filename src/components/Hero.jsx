@@ -4,7 +4,7 @@ import bluetech from "../assets/bluetech2.jpg";
 import { TypeAnimation } from 'react-type-animation';
 import { heroimg } from '../assets/';
 import { Tilt } from "react-tilt";
-import Matt_McGovern_Marketing_Resume from "../assets/Matt_McGovern_Marketing_Resume_2025.3.pdf"
+import Matt_McGovern_Marketing_Resume from "../assets/Matt_McGovern_Marketing_Resume_2025.33.pdf"
 
 
 const Hero = () => {
