@@ -5,7 +5,7 @@ import close from "./close.svg";
 import bluetech from "./bluetech2.jpg";
 import mm from "./mm5.png";
 import habitat from "./company/habitat.png";
-
+import lifecycle from "./certs/lifecycle.png";
 import heroimg from "./heroimg.jpg";
 
 import LIr from "./LIr.jpg";
@@ -111,4 +111,5 @@ export {
   anfemail1,
   anfemail2,
   anfemail3,
+  lifecycle,
 };

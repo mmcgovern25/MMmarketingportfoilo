@@ -41,7 +41,8 @@ gavea,
   semscreen,
   anfemail1,
   anfemail2,
-  anfemail3
+  anfemail3,
+  lifecycle
 } from "../assets";
 
 export const navLinks = [
@@ -239,20 +240,20 @@ const experiences = [
 
 const projects = [
   {
-    name: "Adobe Photoshop Masterclass (Learning Next)",
+    name: "Lifecycle Marketing Theory",
     description:
-      "This course looks to focus on advanced photo editing, retouching, and graphic design techniques. Different sections covering layer manipulation, masking, typography, and color correction to create professional-quality visual content.",
+      "Learned how to apply the Lifecycle Marketing framework to analyze and optimize the full customer journey, from lead collection to client conversion and long-term retention. The course strengthened my ability to identify gaps, and how to improve performance at each stage along the way.",
     tags: [
       {
-        name: "Photoshop",
+        name: "LifecycleMarketing",
         color: "blue-text-gradient",
       }
     ],
-    image: photoshopsnip,
-    live_link: "https://www.udemy.com/course/adobe-photoshop-course/?couponCode=24T7MT260525G3",
+    image: lifecycle,
+    live_link: "https://www.udemy.com/course/lifecycle-markting-theory/",
   }, 
   {
-    name: "Adobe After Effects Bootcamp (In Progress)",
+    name: "Adobe After Effects Bootcamp",
     description:
       "Full beginner to advanced course on Adobe After Effects, with over 23 hours of on-demand video content. I am learning how to create motion graphics, animations, and visual effects with a wide variety of different projects.",
     tags: [
