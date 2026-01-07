@@ -2,9 +2,9 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import bluetech from "../assets/bluetech2.jpg";
 import { TypeAnimation } from 'react-type-animation';
-import { heroimg } from '../assets/';
+import { LIr } from '../assets/';
 import { Tilt } from "react-tilt";
-import Matt_McGovern_Marketing_Resume from "../assets/Matt_McGovern_Marketing_Resume.pdf"
+import Matt_McGovern_Marketing_Resume from "../assets/Matt_McGovern_Marketing_Resume_2025.33.pdf"
 
 
 const Hero = () => {
@@ -38,13 +38,13 @@ const Hero = () => {
             <TypeAnimation
               className={`bg-clip-text text-transparent bg-gradient-to-r from-blue-700 to-blue-300 ${styles.heroHeadTextGradient}`}
               sequence={[
+                'Lifecycle Marketer.',
+                1000,
+                'CRM Specialist.',
+                1000,
                 'Digital Marketer.',
                 1000,
-                'Content Strategist.',
-                1000,
-                'Design Enthusiast.',
-                1000,
-                'Email Marketer.',
+                'Email Developer.',
                 1000
               ]}
               wrapper="span"
@@ -76,7 +76,7 @@ const Hero = () => {
 
       <div className="hero-img-container">
          <Tilt className='max-w-xs'>
-          <img src={heroimg} alt="Matt McGovern Photo" className="green-pink-gradient p-[2px] rounded-full shadow-card w-auto h-auto" />
+          <img src={LIr} alt="Matt McGovern Photo" className="green-pink-gradient p-[2px] rounded-full shadow-card w-auto h-auto" />
         </Tilt>
       </div>
 

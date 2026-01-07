@@ -46,11 +46,14 @@ const About = () => {
 
       <motion.div variants={fadeIn("", "", 0.1, 1)} className="mt-4 max-w-3xl leading-[30px] text-secondary text-[17px]">
   <p>
-  Who am I? Professionally, I've built a broad foundation across digital marketing and tech—ranging from growth and email marketing, to SEO, motion graphics, and web development. Rather than being a “jack-of-all-trades,” I like to think of myself as someone who's naturally curious, adaptable, and always eager to learn what’s next. I take pride in staying coachable, embracing new tools and challenges, and keeping pace with the ever-evolving digital landscape.
+  Who am I? 
+Professionally, I specialize in lifecycle marketing, CRM, and email automation, bringing together both the creative and technical sides of digital marketing. Over the past few years, I’ve built and optimized customer journeys, automated campaigns, and retention strategies while also gaining experience across SEO, growth marketing, and web development.
+I’m somebody who is naturally very curious and thrive on learning new tools, adapting quickly, and solving challenges in a fast-changing digital landscape. My goal is always the same: create personalized, data-driven experiences that drive engagement, retention, and long-term growth.
+
   </p>
 
   <p className="mt-4">
-  Outside of work, I’m all about quality time with family and friends—they're truly the foundation of everything for me. (I just became an uncle, which has been a joy!) I also love being outdoors, exploring new places, and seeking out fresh perspectives whenever I can.
+  Outside of work, I’m all about spending time with family and friends (I just became an uncle, which has been amazing!), and I like to recharge by spending time outdoors, playing basketball, traveling, and exploring new perspectives whenever I can.
   </p>
 </motion.div>
 
