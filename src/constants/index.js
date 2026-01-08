@@ -42,7 +42,8 @@ gavea,
   anfemail1,
   anfemail2,
   anfemail3,
-  lifecycle
+  lifecycle,
+  healthcare,
 } from "../assets";
 
 export const navLinks = [
@@ -241,7 +242,20 @@ const experiences = [
 
 const projects = [
   {
-    name: "Lifecycle Marketing Theory",
+    name: "Healthcare Marketing Compliance Certifcation",
+    description:
+      "This course covered the foundations of healthcare marketing compliance, including regulatory standards and best practices for ethical communication. I gained practical insight into applying compliance principles across marketing campaigns and content.",
+    tags: [
+      {
+        name: "HealthcareMarketing",
+        color: "pink-text-gradient",
+      }
+    ],
+    image: healthcare,
+    live_link: "https://wearehipaasmart.com/our-courses/",
+  },
+  {
+    name: "Lifecycle Marketing Theory Certifcation",
     description:
       "Learned how to apply the Lifecycle Marketing framework to analyze and optimize the full customer journey, from lead collection to client conversion and long-term retention. The course strengthened my ability to identify gaps, and how to improve performance at each stage along the way.",
     tags: [
