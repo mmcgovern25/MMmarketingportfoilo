@@ -7,7 +7,7 @@ import mm from "./mm5.png";
 import habitat from "./company/habitat.png";
 import lifecycle from "./certs/lifecycle.png";
 import heroimg from "./heroimg.jpg";
-import healthcare from "./certs/healthcare.pdf"
+import healthcare from "./certs/healthcare.png"
 
 import LIr from "./LIr.jpg";
 import BAr from "./BAr.jpg";
@@ -113,5 +113,5 @@ export {
   anfemail2,
   anfemail3,
   lifecycle,
-  healthcare
+  healthcare,
 };
