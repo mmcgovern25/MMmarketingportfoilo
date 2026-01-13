@@ -44,6 +44,7 @@ gavea,
   anfemail3,
   lifecycle,
   healthcare,
+  hubspotemail, 
 } from "../assets";
 
 export const navLinks = [
@@ -241,6 +242,19 @@ const experiences = [
 ];
 
 const projects = [
+  {
+    name: "Hubspot Email Marketing Certifcation",
+    description:
+      "Completed the Hubspot Email Marketing Certification, which covered the fundamentals of email marketing, including email design, segmentation, and automation. I gained practical experience in creating and managing email campaigns.",
+    tags: [
+      {
+        name: "EmailMarketing",
+        color: "blue-text-gradient",
+      }
+    ],
+    image: hubspotemail,
+    live_link: "https://academy.hubspot.com/courses/email-marketing-certification-en",
+  },
   {
     name: "Healthcare Marketing Compliance Certifcation",
     description:

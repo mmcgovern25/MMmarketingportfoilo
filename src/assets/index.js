@@ -8,6 +8,7 @@ import habitat from "./company/habitat.png";
 import lifecycle from "./certs/lifecycle.png";
 import heroimg from "./heroimg.jpg";
 import healthcare from "./certs/healthcare.png"
+import hubspotemail from "./certs/hubspotemail.png"
 
 import LIr from "./LIr.jpg";
 import BAr from "./BAr.jpg";
@@ -114,4 +115,5 @@ export {
   anfemail3,
   lifecycle,
   healthcare,
+  hubspotemail,
 };
