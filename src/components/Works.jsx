@@ -202,12 +202,35 @@ My goal is to become as well-rounded as possible; not only to build more versati
         ))}
       </div>
 
+      <div className='w-full flex'>
+        <motion.p
+          variants={fadeIn("", "", 0.1, 1)}
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: true, amount: 0.1 }}
+          className='mt-3 mb-10 text-secondary text-[17px] max-w-3xl leading-[30px]'
+        >
+          Last but not least, here are some examples of the current work I am doing at A&F. Building emails and SMS notications across all brands, and delivering those performance analytics back to our team!
+        </motion.p>
+      </div>
+
+      <div className='mt-2 flex flex-wrap gap-7'>
+        {projects4.map((project, index) => (
+          <ProjectCard4
+            key={`project-${index}`}
+            index={index}
+            {...project}
+          />
+        ))}
+      </div>
+
       <motion.div initial="hidden"
           whileInView="show"
           viewport={{ once: true, amount: 0.1 }} variants={textVariant()}>
         <p className={`mt-24 ${styles.sectionSubText}`}>My personal programming</p>
         <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
       </motion.div>
+      
 
       <div className='w-full flex'>
         <motion.p
@@ -238,6 +261,8 @@ My goal is to become as well-rounded as possible; not only to build more versati
         <h2 className={`${styles.sectionHeadText}`}>Abercrombie & Fitch.</h2>
       </motion.div>
 
+    
+
       <div className='w-full flex'>
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
@@ -248,16 +273,6 @@ My goal is to become as well-rounded as possible; not only to build more versati
         >
           Last but not least, here are some examples of the current work I am doing at A&F. Building emails and SMS notications across all brands, and delivering those performance analytics back to our team!
         </motion.p>
-      </div>
-
-      <div className='mt-2 flex flex-wrap gap-7'>
-        {projects4.map((project, index) => (
-          <ProjectCard4
-            key={`project-${index}`}
-            index={index}
-            {...project}
-          />
-        ))}
       </div>
 
       <div className='mt-2 flex flex-wrap gap-7'>

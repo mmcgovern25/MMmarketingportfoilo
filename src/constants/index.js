@@ -472,7 +472,7 @@ const projects4 = [
         color: "red-text-gradient",
       },
     ],
-    image: Lifespan,
+    image: nike,
     live_link: "https://cryptotrackersworld.com",
   },
 
@@ -597,7 +597,7 @@ const projects4 = [
   },
 
   {
-    name: "Start with Why",
+    name: "This is Marketing",
     description:
       "Positioning",
     tags: [
