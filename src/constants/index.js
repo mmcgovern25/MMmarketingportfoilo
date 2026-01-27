@@ -367,7 +367,6 @@ const projects = [
     live_link: "https://static.semrush.com/academy/certificates/836f0cabb2/matthew-mcgovern_2.pdf",
   },
 ];
-
 const projects2 = [
 
   {
@@ -449,6 +448,195 @@ const projects2 = [
   },
 ];
 
+const projects4 = [
+
+  {
+    name: "Lifespan",
+    description:
+      "The book Lifespan by David Sinclair is about the science of aging and how to live a long and healthy life. From potential longevity treatments, to the best foods to eat, when to eat this book for longevity; this book has it all.",
+    tags: [
+      {
+        name: "Health",
+        color: "red-text-gradient",
+      },
+      {
+        name: "Nutrition",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Science",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Medicine",
+        color: "red-text-gradient",
+      },
+    ],
+    image: Lifespan,
+    live_link: "https://cryptotrackersworld.com",
+  },
+
+  {
+    name: "Sapiens",
+    description:
+      "Sapiens",
+    tags: [
+      {
+        name: "History",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "Anthropology",
+        color: "yellow-text-gradient",
+      },
+     
+    ],
+    image: nike,
+    live_link: "https://nikestoresale.netlify.app",
+  },
+ 
+  
+  {
+    name: "Positioning: The Battle for Your Mind",
+    description:
+      "Positioning",
+    tags: [
+      {
+        name: "Marketing",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Business",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Psychology",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: iphone,
+    live_link: "https://appleiphonesale.netlify.app",
+  },
+
+
+  {
+    name: "The Burning Earth",
+    description:
+      "Positioning",
+    tags: [
+      {
+        name: "Climate",
+        color: "green-text-gradient",
+      },
+      {
+        name: "History",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: iphone,
+    live_link: "https://appleiphonesale.netlify.app",
+  },
+
+
+  {
+    name: "Mediations",
+    description:
+      "Positioning",
+    tags: [
+      {
+        name: "Philosophy",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "History",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: iphone,
+    live_link: "https://appleiphonesale.netlify.app",
+  },
+
+  {
+    name: "Asterophysics for People in a Hurry",
+    description:
+      "Positioning",
+    tags: [
+      {
+        name: "Asterophysics",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Science",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: iphone,
+    live_link: "https://appleiphonesale.netlify.app",
+  },
+
+  {
+    name: "The China Study",
+    description:
+      "Positioning",
+    tags: [
+      {
+        name: "Nutrition",
+        color: "green-text-gradient",
+      },
+      {
+        name: "health",
+        color: "green-text-gradient",
+      },
+      {
+        name: "science",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: iphone,
+    live_link: "https://appleiphonesale.netlify.app",
+  },
+
+  {
+    name: "Start with Why",
+    description:
+      "Positioning",
+    tags: [
+      {
+        name: "Business",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Marketing",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Psycology",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: iphone,
+    live_link: "https://appleiphonesale.netlify.app",
+  },
+
+  {
+    name: "Why We Sleep",
+    description:
+      "Positioning",
+    tags: [
+      {
+        name: "Health",
+        color: "red-text-gradient",
+      },
+      {
+        name: "Science",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: iphone,
+    live_link: "https://appleiphonesale.netlify.app",
+  },
+];
+
 const projects3 = [
 
   {
@@ -464,4 +652,4 @@ const projects3 = [
 ];
   
 
-export { services, technologies, experiences, projects, projects2, projects3 };
+export { services, technologies, experiences, projects, projects2, projects3, projects4 };
