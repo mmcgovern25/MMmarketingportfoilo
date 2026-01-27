@@ -44,7 +44,19 @@ gavea,
   anfemail3,
   lifecycle,
   healthcare,
-  hubspotemail, 
+  hubspotemail,
+  Lifespan,
+  advertising,
+  mediations,
+  marketing,
+  dontdie,
+  sapiens,
+  chinastudy,
+  asterophysics,
+  postioning,
+  burningearth,
+  sleep,
+  habits
 } from "../assets";
 
 export const navLinks = [
@@ -472,8 +484,81 @@ const projects4 = [
         color: "red-text-gradient",
       },
     ],
-    image: nike,
+    image: Lifespan,
     live_link: "https://cryptotrackersworld.com",
+  },
+  {
+    name: "Scientific Advertising",
+    description:
+      "Positioning",
+    tags: [
+      {
+        name: "Health",
+        color: "red-text-gradient",
+      },
+      {
+        name: "Science",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: advertising,
+    live_link: "https://appleiphonesale.netlify.app",
+  },
+  {
+    name: "Mediations",
+    description:
+      "Positioning",
+    tags: [
+      {
+        name: "Philosophy",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "History",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: mediations,
+    live_link: "https://appleiphonesale.netlify.app",
+  },
+  {
+    name: "This is Marketing",
+    description:
+      "Positioning",
+    tags: [
+      {
+        name: "Business",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Marketing",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Psycology",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: marketing,
+    live_link: "https://appleiphonesale.netlify.app",
+  },
+
+  {
+    name: "How Not to Die",
+    description:
+      "Positioning",
+    tags: [
+      {
+        name: "Health",
+        color: "red-text-gradient",
+      },
+      {
+        name: "Science",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: dontdie,
+    live_link: "https://appleiphonesale.netlify.app",
   },
 
   {
@@ -491,8 +576,46 @@ const projects4 = [
       },
      
     ],
-    image: nike,
+    image: sapiens,
     live_link: "https://nikestoresale.netlify.app",
+  },
+  {
+    name: "The China Study",
+    description:
+      "Positioning",
+    tags: [
+      {
+        name: "Nutrition",
+        color: "green-text-gradient",
+      },
+      {
+        name: "health",
+        color: "green-text-gradient",
+      },
+      {
+        name: "science",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: chinastudy,
+    live_link: "https://appleiphonesale.netlify.app",
+  },
+  {
+    name: "Asterophysics for People in a Hurry",
+    description:
+      "Positioning",
+    tags: [
+      {
+        name: "Asterophysics",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Science",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: asterophysics,
+    live_link: "https://appleiphonesale.netlify.app",
   },
  
   
@@ -514,110 +637,26 @@ const projects4 = [
         color: "pink-text-gradient",
       },
     ],
-    image: iphone,
+    image: postioning,
     live_link: "https://appleiphonesale.netlify.app",
   },
-
-
   {
-    name: "The Burning Earth",
+    name: "Atomic Habits",
     description:
       "Positioning",
     tags: [
       {
-        name: "Climate",
-        color: "green-text-gradient",
-      },
-      {
-        name: "History",
-        color: "yellow-text-gradient",
-      },
-    ],
-    image: iphone,
-    live_link: "https://appleiphonesale.netlify.app",
-  },
-
-
-  {
-    name: "Mediations",
-    description:
-      "Positioning",
-    tags: [
-      {
-        name: "Philosophy",
-        color: "purple-text-gradient",
-      },
-      {
-        name: "History",
-        color: "yellow-text-gradient",
-      },
-    ],
-    image: iphone,
-    live_link: "https://appleiphonesale.netlify.app",
-  },
-
-  {
-    name: "Asterophysics for People in a Hurry",
-    description:
-      "Positioning",
-    tags: [
-      {
-        name: "Asterophysics",
-        color: "blue-text-gradient",
+        name: "Health",
+        color: "red-text-gradient",
       },
       {
         name: "Science",
         color: "blue-text-gradient",
       },
     ],
-    image: iphone,
+    image: habits,
     live_link: "https://appleiphonesale.netlify.app",
   },
-
-  {
-    name: "The China Study",
-    description:
-      "Positioning",
-    tags: [
-      {
-        name: "Nutrition",
-        color: "green-text-gradient",
-      },
-      {
-        name: "health",
-        color: "green-text-gradient",
-      },
-      {
-        name: "science",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: iphone,
-    live_link: "https://appleiphonesale.netlify.app",
-  },
-
-  {
-    name: "This is Marketing",
-    description:
-      "Positioning",
-    tags: [
-      {
-        name: "Business",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "Marketing",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "Psycology",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: iphone,
-    live_link: "https://appleiphonesale.netlify.app",
-  },
-
   {
     name: "Why We Sleep",
     description:
@@ -632,9 +671,27 @@ const projects4 = [
         color: "blue-text-gradient",
       },
     ],
-    image: iphone,
+    image: sleep,
     live_link: "https://appleiphonesale.netlify.app",
   },
+  {
+    name: "The Burning Earth",
+    description:
+      "Positioning",
+    tags: [
+      {
+        name: "Climate",
+        color: "green-text-gradient",
+      },
+      {
+        name: "History",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: burningearth,
+    live_link: "https://appleiphonesale.netlify.app",
+  },
+
 ];
 
 const projects3 = [

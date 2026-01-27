@@ -8,7 +8,20 @@ import habitat from "./company/habitat.png";
 import lifecycle from "./certs/lifecycle.png";
 import heroimg from "./heroimg.jpg";
 import healthcare from "./certs/healthcare.png"
-import hubspotemail from "./certs/hubspotemail.png"
+import hubspotemail from "./certs/hubspotemail.png";
+
+import asterophysics from "./books/asterophysics.png";
+import advertising from "./books/advertising";
+import burningearth from "./books/burningearth.png";
+import chinastudy from "./books/chinastudy.png";
+import dontdie from "./books/dontdie.png";
+import habits from "./books/habits.png";
+import Lifespan from "./books/lifespan.png";
+import marketing from "./book/marketing.png";
+import mediations from "./books/mediations.png";
+import postioning from "./books/postioning.png";
+import sapiens from "./books/sapiens.png";
+import sleep from "./books/sleep.png";
 
 import LIr from "./LIr.jpg";
 import BAr from "./BAr.jpg";
@@ -116,4 +129,16 @@ export {
   lifecycle,
   healthcare,
   hubspotemail,
+  Lifespan,
+  advertising,
+  mediations,
+  marketing,
+  dontdie,
+  sapiens,
+  chinastudy,
+  asterophysics,
+  postioning,
+  burningearth,
+  sleep,
+  habits
 };
