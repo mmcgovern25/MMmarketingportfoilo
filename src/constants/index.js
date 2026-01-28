@@ -465,11 +465,11 @@ const projects4 = [
   {
     name: "Lifespan",
     description:
-      "The book Lifespan by David Sinclair is about the science of aging and how to live a long and healthy life. From potential longevity treatments, to the best foods to eat, when to eat this book for longevity; this book has it all.",
+      "Lifespan by David Sinclair explores the science of aging and the biological mechanisms that drive it, examining how lifestyle choices, nutrition, and emerging longevity research may help extend not just lifespan, but healthspan.",
     tags: [
       {
         name: "Health",
-        color: "red-text-gradient",
+        color: "pink-text-gradient",
       },
       {
         name: "Nutrition",
@@ -481,7 +481,7 @@ const projects4 = [
       },
       {
         name: "Medicine",
-        color: "red-text-gradient",
+        color: "pink-text-gradient",
       },
     ],
     image: Lifespan,
@@ -490,15 +490,19 @@ const projects4 = [
   {
     name: "Scientific Advertising",
     description:
-      "Positioning",
+      "Scientific Advertising by Claude C. Hopkins outlines the foundational principles of effective advertising, emphasizing testing, measurable results, and data-driven decision-making to improve marketing performance.",
     tags: [
       {
-        name: "Health",
-        color: "red-text-gradient",
+        name: "Psychology",
+        color: "pink-text-gradient",
       },
       {
-        name: "Science",
-        color: "blue-text-gradient",
+        name: "Business",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Marketing",
+        color: "orange-text-gradient",
       },
     ],
     image: advertising,
@@ -507,11 +511,11 @@ const projects4 = [
   {
     name: "Mediations",
     description:
-      "Positioning",
+      "Meditations by Marcus Aurelius is a collection of personal reflections on Stoic philosophy, focusing on discipline, perspective, and self-mastery. I find it valuable for grounding my thinking, building resilience, and approaching both work and life with greater clarity.",
     tags: [
       {
         name: "Philosophy",
-        color: "purple-text-gradient",
+        color: "text-purple-500",
       },
       {
         name: "History",
@@ -524,7 +528,7 @@ const projects4 = [
   {
     name: "This is Marketing",
     description:
-      "Positioning",
+      "This Is Marketing by Seth Godin reframes marketing as a practice rooted in empathy, trust, and long-term value rather than tactics alone. The book reinforced the importance of understanding audiences deeply, telling meaningful stories, and building work that genuinely serves people.",
     tags: [
       {
         name: "Business",
@@ -535,7 +539,7 @@ const projects4 = [
         color: "orange-text-gradient",
       },
       {
-        name: "Psycology",
+        name: "Psychology",
         color: "pink-text-gradient",
       },
     ],
@@ -546,11 +550,11 @@ const projects4 = [
   {
     name: "How Not to Die",
     description:
-      "Positioning",
+      "How Not to Die by Dr. Michael Greger examines the role of nutrition in preventing and reversing chronic disease, emphasizing evidence-based, plant-focused eating. I found it valuable for understanding how daily dietary choices directly impact long-term health and longevity.",
     tags: [
       {
         name: "Health",
-        color: "red-text-gradient",
+        color: "pink-text-gradient",
       },
       {
         name: "Science",
@@ -564,7 +568,7 @@ const projects4 = [
   {
     name: "Sapiens",
     description:
-      "Sapiens",
+      "Sapiens by Yuval Noah Harari explores the history of humankind, examining how biology, culture, and shared beliefs have shaped societies over time. I found it valuable for expanding my perspective on human behavior, systems, and the forces that influence how people think and act.",
     tags: [
       {
         name: "History",
@@ -582,18 +586,18 @@ const projects4 = [
   {
     name: "The China Study",
     description:
-      "Positioning",
+      "The China Study by T. Colin Campbell is one of favorite books exploring the link between diet, nutrition, and chronic disease, based on decades of research. I found it valuable for understanding how whole-food, plant-based diets can influence long-term health and well-being.",
     tags: [
       {
         name: "Nutrition",
         color: "green-text-gradient",
       },
       {
-        name: "health",
-        color: "green-text-gradient",
+        name: "Health",
+        color: "pink-text-gradient",
       },
       {
-        name: "science",
+        name: "Science",
         color: "blue-text-gradient",
       },
     ],
@@ -603,7 +607,7 @@ const projects4 = [
   {
     name: "Asterophysics for People in a Hurry",
     description:
-      "Positioning",
+      "Astrophysics for People in a Hurry by Neil deGrasse Tyson breaks down complex concepts about the universe into clear, digestible ideas. I enjoy it for expanding my understanding of space, science, and the forces that shape our world.",
     tags: [
       {
         name: "Asterophysics",
@@ -622,7 +626,7 @@ const projects4 = [
   {
     name: "Positioning: The Battle for Your Mind",
     description:
-      "Positioning",
+      "Positioning: The Battle for Your Mind by Al Ries and Jack Trout explores how brands can occupy a distinct place in consumers’ minds. I found it valuable for shaping how I think about differentiation, messaging, and strategic brand positioning in marketing.",
     tags: [
       {
         name: "Marketing",
@@ -643,15 +647,15 @@ const projects4 = [
   {
     name: "Atomic Habits",
     description:
-      "Positioning",
+      "Atomic Habits by James Clear explores how small, consistent changes can lead to meaningful improvement over time. I find it valuable for building better habits, optimizing workflows, and approaching both personal and professional growth intentionally.",
     tags: [
       {
-        name: "Health",
-        color: "red-text-gradient",
+        name: "Business",
+        color: "orange-text-gradient",
       },
       {
-        name: "Science",
-        color: "blue-text-gradient",
+        name: "Self-Development",
+        color: "orange-text-gradient",
       },
     ],
     image: habits,
@@ -660,11 +664,11 @@ const projects4 = [
   {
     name: "Why We Sleep",
     description:
-      "Positioning",
+      "Why We Sleep by Matthew Walker explores the science of sleep and its critical role in health, cognition, and well-being. I found it valuable for understanding how sleep affects performance, decision-making, and long-term health.",
     tags: [
       {
         name: "Health",
-        color: "red-text-gradient",
+        color: "pink-text-gradient",
       },
       {
         name: "Science",
@@ -677,7 +681,7 @@ const projects4 = [
   {
     name: "The Burning Earth",
     description:
-      "Positioning",
+      "The Burning Earth by Sunil Amrith examines how climate, environment, and human activity have shaped societies over time. I found it valuable for understanding the historical roots of environmental challenges and thinking critically about sustainability and the future.",
     tags: [
       {
         name: "Climate",

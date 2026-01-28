@@ -112,7 +112,7 @@ const ProjectCard4 = ({ index, name, description, tags, image, live_link }) => {
       viewport={{ once: true, amount: 0.1 }}
       className='bg-tertiary rounded-2xl p-5 sm:w-[340px] w-full'
     >
-      <div className='relative w-full h-[230px]'>
+      <div className='relative w-full h-[400px]'>
         <img
           src={image}
           alt={name}
@@ -175,7 +175,7 @@ const Works = () => {
       <motion.div initial="hidden"
           whileInView="show"
           viewport={{ once: true, amount: 0.1 }} variants={textVariant()}>
-        <p className={`${styles.sectionSubText}`}>My Leaning</p>
+        <p className={`${styles.sectionSubText}`}>My Learning</p>
         <h2 className={`${styles.sectionHeadText}`}>Courses & Certifications.</h2>
       </motion.div>
 
@@ -202,27 +202,7 @@ My goal is to become as well-rounded as possible; not only to build more versati
         ))}
       </div>
 
-      <div className='w-full flex'>
-        <motion.p
-          variants={fadeIn("", "", 0.1, 1)}
-          initial="hidden"
-          whileInView="show"
-          viewport={{ once: true, amount: 0.1 }}
-          className='mt-3 mb-10 text-secondary text-[17px] max-w-3xl leading-[30px]'
-        >
-          Last but not least, here are some examples of the current work I am doing at A&F. Building emails and SMS notications across all brands, and delivering those performance analytics back to our team!
-        </motion.p>
-      </div>
-
-      <div className='mt-2 flex flex-wrap gap-7'>
-        {projects4.map((project, index) => (
-          <ProjectCard4
-            key={`project-${index}`}
-            index={index}
-            {...project}
-          />
-        ))}
-      </div>
+  
 
       <motion.div initial="hidden"
           whileInView="show"
@@ -271,13 +251,41 @@ My goal is to become as well-rounded as possible; not only to build more versati
           viewport={{ once: true, amount: 0.1 }}
           className='mt-3 mb-10 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-          Last but not least, here are some examples of the current work I am doing at A&F. Building emails and SMS notications across all brands, and delivering those performance analytics back to our team!
+          Here are some examples of the current work I am doing at A&F. Building emails and SMS notications across all brands, and delivering those performance analytics back to our team!
         </motion.p>
       </div>
 
       <div className='mt-2 flex flex-wrap gap-7'>
         {projects3.map((project, index) => (
           <ProjectCard3
+            key={`project-${index}`}
+            index={index}
+            {...project}
+          />
+        ))}
+      </div>
+
+      <motion.div initial="hidden"
+          whileInView="show"
+          viewport={{ once: true, amount: 0.1 }} variants={textVariant()}>
+        <h2 className={`mt-24 ${styles.sectionHeadText}`}>Books I'm Reading</h2>
+      </motion.div>
+
+      <div className='w-full flex'>
+        <motion.p
+          variants={fadeIn("", "", 0.1, 1)}
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: true, amount: 0.1 }}
+          className='mt-3 mb-10 text-secondary text-[17px] max-w-3xl leading-[30px]'
+        >
+        Last but not least, here are some of the books I’m currently reading. While some focus on marketing, I also enjoy exploring a wide range of disciplines including health, science, history, and philosophy. All in attempt to continuously broaden my perspective, encourage critical thinking, and inspire new ideas.
+        </motion.p>
+      </div>
+
+      <div className='mt-2 flex flex-wrap gap-7'>
+        {projects4.map((project, index) => (
+          <ProjectCard4
             key={`project-${index}`}
             index={index}
             {...project}

@@ -11,13 +11,13 @@ import healthcare from "./certs/healthcare.png"
 import hubspotemail from "./certs/hubspotemail.png";
 
 import asterophysics from "./books/asterophysics.png";
-import advertising from "./books/advertising";
+import advertising from "./books/advertising.png";
 import burningearth from "./books/burningearth.png";
 import chinastudy from "./books/chinastudy.png";
 import dontdie from "./books/dontdie.png";
 import habits from "./books/habits.png";
 import Lifespan from "./books/lifespan.png";
-import marketing from "./book/marketing.png";
+import marketing from "./books/marketing.png";
 import mediations from "./books/mediations.png";
 import postioning from "./books/postioning.png";
 import sapiens from "./books/sapiens.png";
