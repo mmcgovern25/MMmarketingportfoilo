@@ -44,7 +44,7 @@ const Hero = () => {
                 1000,
                 'Digital Marketer.',
                 1000,
-                'Email Developer.',
+                'AI Enthusiast.',
                 1000
               ]}
               wrapper="span"
