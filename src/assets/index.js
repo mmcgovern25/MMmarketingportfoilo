@@ -9,6 +9,10 @@ import lifecycle from "./certs/lifecycle.png";
 import heroimg from "./heroimg.jpg";
 import healthcare from "./certs/healthcare.png"
 import hubspotemail from "./certs/hubspotemail.png";
+import marketingai1 from "./certs/marketingai1.png";
+import marketingai2 from "./certs/marketingai2.png";
+import marketingai3 from "./certs/marketingai3.png";
+import marketingai4 from "./certs/marketingai4.png";
 
 import asterophysics from "./books/asterophysics.png";
 import advertising from "./books/advertising.png";
@@ -140,5 +144,9 @@ export {
   postioning,
   burningearth,
   sleep,
-  habits
+  habits,
+  marketingai1,
+  marketingai2,
+  marketingai3,
+  marketingai4
 };

@@ -56,7 +56,11 @@ gavea,
   postioning,
   burningearth,
   sleep,
-  habits
+  habits,
+  marketingai1,
+  marketingai2,
+  marketingai3,
+  marketingai4
 } from "../assets";
 
 export const navLinks = [
@@ -254,6 +258,58 @@ const experiences = [
 ];
 
 const projects = [
+  {
+    name: "Actionable AI in Marketing",
+    description:
+      "Completed the Harvard University “Future-Proof with AI: Actionable AI in Marketing” certification, which covered the practical application of AI in marketing strategy, including data-driven decision-making, personalization, and automation. I gained hands-on insight into leveraging AI tools to optimize marketing performance.",
+    tags: [
+      {
+        name: "AiMarketing",
+        color: "pink-text-gradient",
+      }
+    ],
+    image: marketingai1,
+    live_link: "https://pll.harvard.edu/course/future-proof-ai",
+  },
+  {
+    name: "Predictive AI Fundamentals",
+    description:
+      "Completed the Predictive AI Fundamentals certification, which covered the core concepts of predictive modeling, data analysis, and forecasting. I gained practical insight into using predictive AI techniques to anticipate trends, customer behavior, and business outcomes.",
+    tags: [
+      {
+        name: "AiMarketing",
+        color: "pink-text-gradient",
+      }
+    ],
+    image: marketingai2,
+    live_link: "https://pll.harvard.edu/course/future-proof-ai",
+  },
+  {
+    name: "Generative AI Fundamentals",
+    description:
+      "Completed the Generative AI certification, which covered the fundamentals of generative models, prompt design, and responsible AI use. I gained practical experience applying generative AI to create content, enhance workflows, and support creative and business use cases.",
+    tags: [
+      {
+        name: "AiMarketing",
+        color: "pink-text-gradient",
+      }
+    ],
+    image: marketingai3,
+    live_link: "https://pll.harvard.edu/course/future-proof-ai",
+  },
+  {
+    name: "Agentic AI Fundamentals",
+    description:
+      "Completed the Agentic AI Fundamentals certification, which covered the principles of autonomous AI agents, task orchestration, and decision-making workflows. I gained practical insight into designing and deploying agent-based systems to execute goals, adapt to feedback, and streamline complex processes.",
+    tags: [
+      {
+        name: "AiMarketing",
+        color: "pink-text-gradient",
+      }
+    ],
+    image: marketingai4,
+    live_link: "https://pll.harvard.edu/course/future-proof-ai",
+  },
   {
     name: "Hubspot Email Marketing Certifcation",
     description:
@@ -485,7 +541,7 @@ const projects4 = [
       },
     ],
     image: Lifespan,
-    live_link: "https://cryptotrackersworld.com",
+    live_link: "https://www.amazon.com/Lifespan-Why-Age_and-Dont-Have/dp/1501191977",
   },
   {
     name: "Scientific Advertising",
@@ -506,7 +562,7 @@ const projects4 = [
       },
     ],
     image: advertising,
-    live_link: "https://appleiphonesale.netlify.app",
+    live_link: "https://www.amazon.com/Scientific-Advertising-Claude-Hopkins/dp/9394112677",
   },
   {
     name: "Mediations",
@@ -523,7 +579,7 @@ const projects4 = [
       },
     ],
     image: mediations,
-    live_link: "https://appleiphonesale.netlify.app",
+    live_link: "https://www.amazon.com/Meditations-Marcus-Aurelius/dp/1503280462",
   },
   {
     name: "This is Marketing",
@@ -544,7 +600,7 @@ const projects4 = [
       },
     ],
     image: marketing,
-    live_link: "https://appleiphonesale.netlify.app",
+    live_link: "https://www.amazon.com/This-Marketing-Cant-Until-Learn/dp/0525540830",
   },
 
   {
@@ -562,7 +618,7 @@ const projects4 = [
       },
     ],
     image: dontdie,
-    live_link: "https://appleiphonesale.netlify.app",
+    live_link: "https://www.amazon.com/How-Not-Die-Discover-Scientifically/dp/1250066115",
   },
 
   {
@@ -581,7 +637,7 @@ const projects4 = [
      
     ],
     image: sapiens,
-    live_link: "https://nikestoresale.netlify.app",
+    live_link: "https://www.amazon.com/Sapiens-Humankind-Yuval-Noah-Harari/dp/0062316095",
   },
   {
     name: "The China Study",
@@ -602,7 +658,7 @@ const projects4 = [
       },
     ],
     image: chinastudy,
-    live_link: "https://appleiphonesale.netlify.app",
+    live_link: "https://www.amazon.com/China-Study-Comprehensive-Nutrition-Implications/dp/1932100660",
   },
   {
     name: "Asterophysics for People in a Hurry",
@@ -619,7 +675,7 @@ const projects4 = [
       },
     ],
     image: asterophysics,
-    live_link: "https://appleiphonesale.netlify.app",
+    live_link: "https://www.amazon.com/Astrophysics-People-Hurry-deGrasse-Tyson/dp/0393609391",
   },
  
   
@@ -642,7 +698,7 @@ const projects4 = [
       },
     ],
     image: postioning,
-    live_link: "https://appleiphonesale.netlify.app",
+    live_link: "https://www.amazon.com/Positioning-Battle-Your-Al-Ries/dp/0071373586",
   },
   {
     name: "Atomic Habits",
@@ -659,7 +715,7 @@ const projects4 = [
       },
     ],
     image: habits,
-    live_link: "https://appleiphonesale.netlify.app",
+    live_link: "https://www.amazon.com/Atomic-Habits-Proven-Build-Break/dp/0735211299",
   },
   {
     name: "Why We Sleep",
@@ -676,7 +732,7 @@ const projects4 = [
       },
     ],
     image: sleep,
-    live_link: "https://appleiphonesale.netlify.app",
+    live_link: "https://www.amazon.com/Why-We-Sleep-Unlocking-Dreams/dp/1501144316",
   },
   {
     name: "The Burning Earth",
@@ -693,7 +749,7 @@ const projects4 = [
       },
     ],
     image: burningearth,
-    live_link: "https://appleiphonesale.netlify.app",
+    live_link: "https://www.amazon.com/Burning-Earth-History-Sunil-Amrith/dp/1324007184",
   },
 
 ];
